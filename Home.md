@@ -1,5 +1,5 @@
 ## 列表
-* [ios](/nbd-ios-touzibao/index)
+* [java](/java/index)
 
 <br/>
 <br/>
