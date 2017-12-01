@@ -1,3 +1,3 @@
 [back](../)
 
-* [io的内存模型](/java/doc/io_model)
+* [io的内存模型](/java/doc/io-model)
