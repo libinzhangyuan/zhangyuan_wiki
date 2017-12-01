@@ -1,6 +1,6 @@
 ## 列表
 * [java](/java/index)
-* [unix](/java/unix)
+* [unix](/unix/index)
 
 <br/>
 <br/>
