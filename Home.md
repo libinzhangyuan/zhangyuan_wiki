@@ -2,8 +2,6 @@
 * [java](java/index.md)
 * [unix](unix/index.md)
 
-https://github.com/libinzhangyuan/zhangyuan_wiki
-
 <br/>
 <br/>
 <br/>
