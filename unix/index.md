@@ -1,4 +1,4 @@
 [back](../)
 
-* [io的内存模型](/unix/doc/io-model)
-* [file io](/unix/doc/file-io)
+* [io的内存模型](doc/io-model.md)
+* [file io](doc/file-io.md)
