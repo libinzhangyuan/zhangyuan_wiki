@@ -1,5 +1,4 @@
 ## 列表
-* [java](https://github.com/libinzhangyuan/zhangyuan_wiki/blob/master/java/index.md)
 * [java](java/index.md)
 * [unix](unix/index.md)
 
