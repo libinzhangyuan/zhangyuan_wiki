@@ -1,5 +1,7 @@
 # 容器
 
+总体的UML类图
+http://blog.csdn.net/fenglibing/article/details/37729335
 
 ### 映射
 ```
@@ -32,6 +34,27 @@ Dictionary
 
 ```
 
+### Set
+```
+Set相关接口
+interface Set<E> extends Collection<E>
+- -> interface SortedSet<E> extends Set<E>
+-     -> interface NavigableSet<E> extends SortedSet<E>
+-        -> interface NavigableSet
+
+Set相关类
+Collection<E>
+- -> AbstractCollection<E> implements Collection<E>
+-   -> AbstractSet<E> extends AbstractCollection<E> implements Set<E>
+-     -> HashSet<E> extends AbstractSet<E> implements Set<E>
+-        -> LinkedHashSet<E> extends HashSet<E> implements Set<E>
+-     -> TreeSet<E> extends AbstractSet<E> implements NavigableSet<E>
+-     -> EnumSet<E extends Enum<E>> extends AbstractSet
+HashSet LinkedHashSet TreeSet EnumSet都是线程不安全的
+线程安全：Set s = Collections.synchronizedSet(new HashSet(...));
+https://www.cnblogs.com/skywang12345/p/3311252.html
+
+```
 
 
 ### List

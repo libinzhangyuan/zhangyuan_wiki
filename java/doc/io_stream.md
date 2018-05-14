@@ -1,5 +1,6 @@
 类体系：
 类体系图 https://www.cnblogs.com/zemliu/archive/2013/08/19/3269015.html
+总概：http://blog.csdn.net/hguisu/article/details/7418161
 
 ### 字节流 字节输入-输出
 ```

@@ -13,3 +13,18 @@ https://www.cnblogs.com/yjhrem/articles/3160864.html
 
 
 ```
+
+
+### 搭建
+```
+spring boot
+http://blog.csdn.net/isea533/article/details/50278205
+
+
+spring boot security
+http://blog.didispace.com/springbootsecurity/
+
+actuator
+https://segmentfault.com/a/1190000004318360?_ea=568366
+
+```

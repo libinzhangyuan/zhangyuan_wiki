@@ -7,5 +7,6 @@ Annotation anno = m.getAnnotation()
 Annotation annos[] = m.getAnnotations(); 
 
 
+Class.forName("TestClass"); 
 
 ```
