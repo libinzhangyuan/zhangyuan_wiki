@@ -1,7 +1,7 @@
 ## 列表
-* [java](java/index.md)
-* [unix](unix/index.md)
-* [算法](algorithm/index.md)
+* [java](java/index)
+* [unix](unix/index)
+* [算法](algorithm/index)
 
 <br/>
 <br/>
