@@ -1,4 +1,4 @@
-[back](../java/index)
+[back](../Home)
 
 * [集合/容器](doc/containers)
 * [io流](doc/io_stream)
