@@ -1,11 +1,11 @@
-[back](../index.md)
+[back](../index)
 
-* [集合/容器](doc/containers.md)
-* [io流](doc/io_stream.md)
-* [多线程](doc/multithread.md)
-* [元编程](doc/metaprogramming.md)
+* [集合/容器](doc/containers)
+* [io流](doc/io_stream)
+* [多线程](doc/multithread)
+* [元编程](doc/metaprogramming)
 
 
-* [spring](doc/spring.md)
-* [spring_data_jpa](doc/spring_data_jpa.md)
-* [spring_bean](doc/spring_bean.md)
+* [spring](doc/spring)
+* [spring_data_jpa](doc/spring_data_jpa)
+* [spring_bean](doc/spring_bean)
