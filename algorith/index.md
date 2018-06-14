@@ -8,4 +8,4 @@
 
 ### 排序
 * [树形选择排序](https://www.cnblogs.com/mengdd/archive/2012/11/27/2791412.html)
-* [堆排序](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)
+* [堆排序](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)  [2](https://www.cnblogs.com/skywang12345/p/3610187.html) [3](https://zhidao.baidu.com/question/646662298629003565.html)
