@@ -1,7 +1,7 @@
 ## 列表
 * [java](java/index)
 * [unix](unix/index)
-* [算法](algorithm/index)
+* [算法](algorith/index)
 
 <br/>
 <br/>
