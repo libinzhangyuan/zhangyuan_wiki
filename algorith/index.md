@@ -12,6 +12,6 @@
 
 * [计数排序](https://segmentfault.com/a/1190000003054515)
 
-* [基数排序](https://segmentfault.com/a/1190000003054515) [2为什么低位先排](https://www.zhihu.com/question/27021728)
+* [基数排序](https://segmentfault.com/a/1190000003054515)    [为什么低位先排](https://www.zhihu.com/question/27021728)
 
 * [桶排序](https://baike.baidu.com/item/%E6%A1%B6%E6%8E%92%E5%BA%8F/4973777) [2](https://segmentfault.com/a/1190000003054515) [3](https://blog.csdn.net/asce1885/article/details/5620410)
