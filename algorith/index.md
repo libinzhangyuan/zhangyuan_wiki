@@ -17,3 +17,5 @@
 * [桶排序](https://baike.baidu.com/item/%E6%A1%B6%E6%8E%92%E5%BA%8F/4973777) [2](https://segmentfault.com/a/1190000003054515) [3](https://blog.csdn.net/asce1885/article/details/5620410)
 
 * [圈排序](https://en.wikipedia.org/wiki/Cycle_sort)
+
+* [地精排序](http://www.voidcn.com/article/p-dllqolqe-ph.html)
