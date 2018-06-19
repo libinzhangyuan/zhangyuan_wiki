@@ -9,3 +9,4 @@
 ### 排序
 * [树形选择排序](https://www.cnblogs.com/mengdd/archive/2012/11/27/2791412.html)
 * [堆排序](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)  [2](https://www.cnblogs.com/skywang12345/p/3610187.html) [3](https://zhidao.baidu.com/question/646662298629003565.html)
+* [桶排序](https://baike.baidu.com/item/%E6%A1%B6%E6%8E%92%E5%BA%8F/4973777) [2](https://segmentfault.com/a/1190000003054515) [3](https://blog.csdn.net/asce1885/article/details/5620410)
