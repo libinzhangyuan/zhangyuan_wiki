@@ -7,8 +7,6 @@
 
 
 ### 排序
-* [树形选择排序](https://www.cnblogs.com/mengdd/archive/2012/11/27/2791412.html)
-* [堆排序](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)  [2](https://www.cnblogs.com/skywang12345/p/3610187.html) [3](https://zhidao.baidu.com/question/646662298629003565.html)
 
 * [计数排序(鸽巢排序)](https://segmentfault.com/a/1190000003054515)
 
@@ -19,3 +17,23 @@
 * [圈排序](https://en.wikipedia.org/wiki/Cycle_sort) 没有什么实用价值
 
 * [地精排序](http://www.voidcn.com/article/p-dllqolqe-ph.html) 没有什么实用价值
+
+
+## 交换排序
+冒泡排序
+快速排序
+
+
+## 选择排序
+* [树形选择排序](https://www.cnblogs.com/mengdd/archive/2012/11/27/2791412.html)
+* [堆排序](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)  [2](https://www.cnblogs.com/skywang12345/p/3610187.html) [3](https://zhidao.baidu.com/question/646662298629003565.html)
+
+
+## 插入排序
+插入排序
+希尔排序
+
+
+
+## 合并排序
+合并排序
