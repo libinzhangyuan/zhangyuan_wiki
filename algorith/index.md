@@ -10,7 +10,7 @@
 * [树形选择排序](https://www.cnblogs.com/mengdd/archive/2012/11/27/2791412.html)
 * [堆排序](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)  [2](https://www.cnblogs.com/skywang12345/p/3610187.html) [3](https://zhidao.baidu.com/question/646662298629003565.html)
 
-* [计数排序](https://segmentfault.com/a/1190000003054515)
+* [计数排序(鸽巢排序)](https://segmentfault.com/a/1190000003054515)
 
 * [基数排序](https://segmentfault.com/a/1190000003054515) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [为什么低位先排](https://www.zhihu.com/question/27021728)
 
