@@ -29,7 +29,7 @@
 ### 插入排序
 * [插入排序]()
 * [希尔排序](https://www.cnblogs.com/jingmoxukong/p/4303279.html) &nbsp;&nbsp;&nbsp; [2](https://www.zhihu.com/question/24637339)
-
+希尔排序的实质就是分组插入排序，该方法又称缩小增量排序
 
 ### 合并排序
 合并排序
