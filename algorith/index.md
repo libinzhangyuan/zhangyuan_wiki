@@ -28,7 +28,7 @@
 
 ### 插入排序
 * [插入排序]()
-* [希尔排序](https://www.cnblogs.com/jingmoxukong/p/4303279.html)
+* [希尔排序](https://www.cnblogs.com/jingmoxukong/p/4303279.html) &nbsp;&nbsp;&nbsp; [2](https://www.zhihu.com/question/24637339)
 
 
 ### 合并排序
