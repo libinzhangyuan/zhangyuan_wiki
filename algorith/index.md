@@ -1,5 +1,8 @@
 [back](../Home)
 
+http://train.usaco.org/usacogate  libinzh1 th55bcz
+
+
 * [排序算法稳定性](https://baike.baidu.com/item/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E7%A8%B3%E5%AE%9A%E6%80%A7)
 * [算法的复杂度的稳定性](https://zhidao.baidu.com/question/29388495.html)
 
