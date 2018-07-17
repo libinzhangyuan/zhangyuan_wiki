@@ -1,6 +1,10 @@
 [back](../Index)
 
 ### find findOne
+```
+匹配算子
+ $lte
+```
 
 ### insert
 
