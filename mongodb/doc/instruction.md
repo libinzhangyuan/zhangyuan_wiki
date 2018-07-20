@@ -3,8 +3,12 @@
 ### find findOne
 ```
 匹配算子 Query Operators
+db.inventory.find( { qty: { $eq: 20 } } )
+db.inventory.find( { qty: { $gt: 20 } } )
+db.inventory.find( { qty: { $gte: 20 } } )
+db.inventory.find( { qty: { $lt: 20 } } )
+db.inventory.find( { qty: { $lte: 20 } } )
 db.inventory.find( { status: { $in: [ "A", "D" ] } } )
-db.inventory.find( { status: "A", qty: { $lt: 30 } } 
 db.inventory.find( { qty: { $ne: 20 } } )
 db.inventory.find( { qty: { $nin: [ 5, 15 ] } } )
 
