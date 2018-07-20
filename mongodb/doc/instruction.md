@@ -2,6 +2,9 @@
 
 ### find findOne
 ```
+And: db.inventory.find( { status: "A", qty: { $lt: 30 } } )
+Or: db.inventory.find( { $or: [ { status: "A" }, { qty: { $lt: 30 } } ] } )
+
 匹配算子 Query Operators
 db.inventory.find( { qty: { $eq: 20 } } )
 db.inventory.find( { qty: { $gt: 20 } } )
@@ -14,6 +17,7 @@ db.inventory.find( { qty: { $nin: [ 5, 15 ] } } )
 
  $eq $gt $gte $in $lt $lte $ne $nin
 ```
+
 
 ### insert
 
