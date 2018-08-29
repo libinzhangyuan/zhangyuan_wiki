@@ -1,3 +1,3 @@
 [back](../Home)
 
-* [内存优化(doc/mem-optmize)
+* [内存优化](doc/mem-optmize)
