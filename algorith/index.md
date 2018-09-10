@@ -35,6 +35,8 @@ http://train.usaco.org/usacogate  libinzh1 th55bcz
 双向冒泡排序（鸡尾酒排序）<br/>
 
 快速排序<br/>
+[变种](https://blog.csdn.net/LYhani82475/article/details/79702914)
+随机化快排 平衡快排 外部快排 三路基数快排
 
 
 ### 选择排序
@@ -51,10 +53,6 @@ http://train.usaco.org/usacogate  libinzh1 th55bcz
 
 ### 合并排序(归并排序)
 [归并排序](https://www.cnblogs.com/chengxiao/p/6194356.html)
-
-
-### 基数排序
-fa
 
 
 ### 其他排序
