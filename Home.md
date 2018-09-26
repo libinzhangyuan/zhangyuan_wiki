@@ -2,6 +2,7 @@
 * [ruby](ruby/index)
 * [java](java/index)
 * [unix](unix/index)
+* [sql](sql/index)
 * [mongodb](mongodb/index)
 * [算法](algorith/index)
 * [分布式相关](distributed-system/index)
