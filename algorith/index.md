@@ -59,3 +59,12 @@ http://train.usaco.org/usacogate  libinzh1 th55bcz
 * [圈排序](https://en.wikipedia.org/wiki/Cycle_sort) Cycle sort  没有什么实用价值
 
 * [地精排序](http://www.voidcn.com/article/p-dllqolqe-ph.html) gnome sorting 没有什么实用价值
+
+
+
+# 字符串排序
+
+* [低位优先的字符串排序](https://www.cnblogs.com/sun-haiyu/p/7877651.html)
+首先待排序的字符串长度均相同，设为W，从右向左以每个字符作为关键字，用计数排序法将字符串排序W次。
+
+* [高位优先的字符串排序MSD](https://www.cnblogs.com/sun-haiyu/p/7877651.html)
