@@ -1,5 +1,8 @@
 [back](../Home)
 
+*[排序](algorith/sort)
+
+
 http://train.usaco.org/usacogate  libinzh1 th55bcz
 
 
