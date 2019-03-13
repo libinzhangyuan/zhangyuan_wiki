@@ -12,3 +12,5 @@ Quick brown fox
   [position_increment_gap](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_multivalue_fields_2.html) = 100 多值字段的处理<br>
   [集合使用match和match_parse，使罗列尽量多，且让临近匹配的文档靠前](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/proximity-relevance.html)<br>
   [rescore  window_size  rescore_query](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_Improving_Performance.html) 取term查询的前面部分数据开展match_parse评分
+
+* [shingles](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/shingles.html) bigrams字段 利用单词开展索引，并搜索时利用
