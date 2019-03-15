@@ -2,7 +2,14 @@
 ```
 GET /_analyze?analyzer=standard
 Quick brown fox
+
+
+GET /my_index/_analyze?analyzer=autocomplete
+
 ```
+* [自定义过滤器]()  [案例](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html)
+
+<br><br><br>
 
 * [match]() term查询
 
@@ -14,4 +21,10 @@ Quick brown fox
   [rescore  window_size  rescore_query](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_Improving_Performance.html) 取term查询的前面部分数据开展match_parse评分
 
 * [shingles](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/shingles.html) bigrams字段 每个单词 以及它的邻近词 作为单个词项索引.搜索时chengdu university，可以让"chengdu university"得分比"chengdu first university"更高.
+
+* [部分匹配](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/partial-matching.html)  部分匹配 WHERE text LIKE "%quick%" <br>
+  [prefix](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/prefix-query.html) 前缀匹配 like "quick%" <br>
+ [wildcard](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_wildcard_and_regexp_queries.html) 通配符 <br>
+ [regexp](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_wildcard_and_regexp_queries.html) 正则表达式<br>
+ [match_phrase_prefix](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_query_time_search_as_you_type.html) 查询时输入即搜索    "max_expansions": 50
 
