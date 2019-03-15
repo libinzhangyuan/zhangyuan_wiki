@@ -13,4 +13,5 @@ Quick brown fox
   [集合使用match和match_parse，使罗列尽量多，且让临近匹配的文档靠前](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/proximity-relevance.html)<br>
   [rescore  window_size  rescore_query](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_Improving_Performance.html) 取term查询的前面部分数据开展match_parse评分
 
-* [shingles](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/shingles.html) bigrams字段 利用单词开展索引，并搜索时利用
+* [shingles](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/shingles.html) bigrams字段 每个单词 以及它的邻近词 作为单个词项索引.搜索时chengdu university，可以让"chengdu university"得分比"chengdu first university"更高.
+
