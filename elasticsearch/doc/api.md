@@ -27,4 +27,5 @@ GET /my_index/_analyze?analyzer=autocomplete
  [wildcard](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_wildcard_and_regexp_queries.html) 通配符 <br>
  [regexp](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_wildcard_and_regexp_queries.html) 正则表达式<br>
  [match_phrase_prefix](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_query_time_search_as_you_type.html) 查询时输入即搜索    "max_expansions": 50
+ [edge_ngram](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html) 利用autocomplete分词器，在索引时实现查询时输入即搜索功能
 
