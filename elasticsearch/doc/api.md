@@ -9,6 +9,8 @@ GET /my_index/_analyze?analyzer=autocomplete
 ```
 * [自定义过滤器]()  [案例](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html)
 
+* [_alias](https://es.xiaoleilu.com/070_Index_Mgmt/55_Aliases.html)索引定义别名
+
 <br><br><br>
 
 * [match]() term查询
