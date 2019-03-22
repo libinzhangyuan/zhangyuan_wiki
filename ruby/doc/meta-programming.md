@@ -25,13 +25,13 @@ def c.func1
 end
 c.func1  # instance method #<C:0x0000000118ed08>
 
-
-
-方案２： 待验证：
+方案２： 已验证：
     string = "String"
     string.instance_eval do
       def new_method
         self.reverse
       end
     end
+
+注意：方案１和２函数内部的作用域不一样．
 ```
