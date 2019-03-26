@@ -7,6 +7,13 @@ Quick brown fox
 GET /my_index/_analyze?analyzer=autocomplete
 
 ```
+
+### 索引相关
+* [index_analyzer,search_analyzer](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html)对字段区分定义索引的分析器和搜索的分析器
+
+
+
+
 * [自定义过滤器]()  [案例](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html)
 
 * [_alias](https://es.xiaoleilu.com/070_Index_Mgmt/55_Aliases.html)索引定义别名
