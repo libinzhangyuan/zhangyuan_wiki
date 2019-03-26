@@ -15,13 +15,15 @@ GET /_search?explain
 
 ```
 
-### 索引相关
+### 索引设置相关
 * [index_analyzer,search_analyzer](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html)对字段区分定义索引的分析器和搜索的分析器
 
 
 * [自定义过滤器]()  [案例](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html)
 
 * [_alias](https://es.xiaoleilu.com/070_Index_Mgmt/55_Aliases.html)索引定义别名
+
+* ["index_options": "docs"](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/scoring-theory.html)禁用词频统计
 
 <br><br><br>
 
@@ -46,3 +48,7 @@ GET /_search?explain
  [match_phrase_prefix](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_query_time_search_as_you_type.html) 查询时输入即搜索    "max_expansions": 50
  [edge_ngram](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html) 利用autocomplete分词器，在索引时实现查询时输入即搜索功能
 
+### 算分相关
+```
+https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/scoring-theory.html
+```
