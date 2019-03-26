@@ -1,10 +1,17 @@
-### 查询某个分析器的分析(分词)结果
+### 分析用
 ```
+查询某个分析器的分析(分词)结果
 GET /_analyze?analyzer=standard
 Quick brown fox
 
-
 GET /my_index/_analyze?analyzer=autocomplete
+
+查询详细细节，比如评分详细情况
+GET /_search?explain 
+{
+   "query"   : { "match" : { "tweet" : "honeymoon" }}
+}
+
 
 ```
 
