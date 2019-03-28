@@ -43,9 +43,13 @@ GET /us/tweet/12/_explain
 <br><br><br>
 
 
+### 结构化搜索
+
+* [term](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_finding_exact_values.html)精确值查找　constant_score
+
 ### 查询相关
 
-* [match]() term查询
+* [match]() term查询　
 
 
 * [match_phrase](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/phrase-matching.html)短语匹配,短语查询<br>
