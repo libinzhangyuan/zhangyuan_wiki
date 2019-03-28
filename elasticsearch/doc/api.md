@@ -36,6 +36,8 @@ GET /us/tweet/12/_explain
 
 * [_alias](https://es.xiaoleilu.com/070_Index_Mgmt/55_Aliases.html)索引定义别名
 
+* [_all](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/custom-all.html)自定义_all字段
+
 * ["index_options": "docs"](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/scoring-theory.html)禁用词频统计
 
 <br><br><br>
