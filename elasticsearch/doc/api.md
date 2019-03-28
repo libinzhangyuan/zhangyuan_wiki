@@ -13,6 +13,19 @@ GET /_search?explain
 }
 
 
+当 explain 选项加到某一文档上时， explain api 会帮助你理解为何这个文档会被匹配，更重要的是，一个文档为何没有被匹配。
+GET /us/tweet/12/_explain
+{
+   "query" : {
+      "bool" : {
+         "filter" : { "term" :  { "user_id" : 2           }},
+         "must" :  { "match" : { "tweet" :   "honeymoon" }}
+      }
+   }
+}
+
+
+
 ```
 
 ### 索引设置相关
