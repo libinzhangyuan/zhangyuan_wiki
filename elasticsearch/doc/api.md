@@ -48,6 +48,10 @@ GET /us/tweet/12/_explain
 * [term](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_finding_exact_values.html)精确值查找　constant_score
 * [bool](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/combining-filters.html)bool过滤器，组合查询
 * [查找多个精确值](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_finding_multiple_exact_values.html)  [多值精确相等](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_finding_multiple_exact_values.html)
+* [范围过滤](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_ranges.html)
+* [处理 Null 值](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_dealing_with_null_values.html)  exists  missing
+
+
 
 ### 查询相关
 
