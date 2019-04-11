@@ -55,10 +55,10 @@ GET /us/tweet/12/_explain
 
 ### 查询相关
 
-* [match]() term查询　
+* [match term](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/term-vs-full-text.html)  词项精确匹配 (term)查询，即不会自动大小写转换等 [例子](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_how_match_uses_bool.html)
 
 
-* [match_phrase](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/phrase-matching.html)短语匹配,短语查询<br>
+* [match_phrase](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/phrase-matching.html)短语匹配,短语查询<br> [operator and](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/match-multi-word.html) [minimum_should_match: 75%](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/match-multi-word.html)
   [slop](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/slop.html) in match_phrase 模糊化  <br>
   [position_increment_gap](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_multivalue_fields_2.html) = 100 多值字段的处理<br>
   [集合使用match和match_parse，使罗列尽量多，且让临近匹配的文档靠前](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/proximity-relevance.html)<br>
