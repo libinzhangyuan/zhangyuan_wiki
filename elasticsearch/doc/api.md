@@ -24,7 +24,12 @@ GET /us/tweet/12/_explain
    }
 }
 
-
+通过使用 analyze API 来分析单词 ，进而比较某字段的分析情况
+GET /my_index/_analyze
+{
+  "field": "my_type.title",   
+  "text": "Foxes"
+}
 
 ```
 
@@ -59,6 +64,7 @@ GET /us/tweet/12/_explain
 
 
 * [match_phrase](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/phrase-matching.html)短语匹配,短语查询<br> [operator and](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/match-multi-word.html) [minimum_should_match: 75%](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/match-multi-word.html)
+  [boost](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_boosting_query_clauses.html)查询语句提升权重
   [slop](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/slop.html) in match_phrase 模糊化  <br>
   [position_increment_gap](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_multivalue_fields_2.html) = 100 多值字段的处理<br>
   [集合使用match和match_parse，使罗列尽量多，且让临近匹配的文档靠前](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/proximity-relevance.html)<br>
