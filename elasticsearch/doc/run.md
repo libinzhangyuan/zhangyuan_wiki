@@ -1,3 +1,4 @@
+```
 cd work/serv/wiki
 . run.sh
 
@@ -18,6 +19,7 @@ hosts:  kibana
 kibana:5601
 
 
+```
 
 
 
@@ -29,8 +31,7 @@ kibana:5601
 
 
 
-
-
+```
 
 
 
@@ -121,3 +122,5 @@ GET /nbdpress/articles/_search
         }
     }
 }
+
+```
