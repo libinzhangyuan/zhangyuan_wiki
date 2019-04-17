@@ -6,7 +6,7 @@ cd ../zhangyuan_wiki
 . run.sh
 
 
-# 启动es  - 另一个控制台
+# 启动es  - 另开一个控制台
 /home/test/es/elasticsearch-5.5.0/bin/elasticsearch
 hosts:  es.cn   es
 es:9200
@@ -18,6 +18,12 @@ es:9200
 hosts:  kibana
 kibana:5601
 
+
+# 其他电脑
+# 配置hosts
+172.19.23.160 es.nbd.cn
+172.19.23.160 kibana.nbd.cn
+# 浏览器中访问es.nbd.cn或kibana.nbd.cn来测试结果
 
 ```
 
