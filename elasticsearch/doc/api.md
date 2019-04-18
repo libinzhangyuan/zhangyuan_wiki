@@ -31,7 +31,7 @@ GET /my_index/_analyze
   "text": "Foxes"
 }
 
-[highline高亮显示](https://www.elastic.co/guide/cn/elasticsearch/guide/current/highlighting-intro.html)
+[highlight高亮显示](https://www.elastic.co/guide/cn/elasticsearch/guide/current/highlighting-intro.html)
 
 ```
 
