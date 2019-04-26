@@ -16,4 +16,7 @@ https://www.jianshu.com/p/4bbf946222d5
 签名 zy   168+
 zyserver
 
+
+ipv6地址介绍：https://wenku.baidu.com/view/d22223a2524de518974b7d3d.html
+
 ```
