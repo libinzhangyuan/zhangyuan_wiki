@@ -5,6 +5,7 @@
 * [sql](sql/index)
 * [mongodb](mongodb/index)
 * [elasticsearch](elasticsearch/index)
+* [redis](redis/index)
 * [算法](algorith/index)
 * [分布式相关](distributed-system/index)
 * [oranme](oranme/index)
