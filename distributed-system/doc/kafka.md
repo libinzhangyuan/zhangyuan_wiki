@@ -3,11 +3,10 @@
 https://linuxhint.com/install-apache-kafka-ubuntu/
 ```
 
-### ruby 接口
+### ruby1.9 只能用poseidon
 ```
-ruby1.9只能用poseidon: https://github.com/bpot/poseidon
-文档：https://www.rubydoc.info/gems/poseidon/Poseidon/Producer
-
+https://github.com/bpot/poseidon
+另，poseidon只实现了同步发送 - 根据阅读代码确认。
 ```
 
 
