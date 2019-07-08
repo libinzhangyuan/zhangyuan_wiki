@@ -3,6 +3,13 @@
 https://linuxhint.com/install-apache-kafka-ubuntu/
 ```
 
+### ruby 接口
+```
+ruby1.9只能用poseidon: https://github.com/bpot/poseidon
+文档：https://www.rubydoc.info/gems/poseidon/Poseidon/Producer
+
+```
+
 
 * [Kafka设计解析](http://www.jasongj.com/2015/03/10/KafkaColumn1/)
 
