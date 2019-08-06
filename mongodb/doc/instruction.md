@@ -13,7 +13,7 @@ db.inventory.find( { qty: { $lt: 20 } } )
 db.inventory.find( { qty: { $lte: 20 } } )
 db.inventory.find( { status: { $in: [ "A", "D" ] } } )
 db.inventory.find( { qty: { $ne: 20 } } )
-db.inventory.find( { qty: { $nin: [ 5, 15 ] } } )
+db.inventory.find( { qty: { $nin: [ 5, 15 ] } } )    # not in
 
  $eq $gt $gte $in $lt $lte $ne $nin
 ```
