@@ -23,6 +23,9 @@ db.inventory.find( { qty: { $nin: [ 5, 15 ] } } )    # not in
 
 ### update
 ```
+update_one/update_many # 更新指定属性
+replace_one # 完整更换
+
 $inc $set $unset 
 数组
  $push 
@@ -35,5 +38,6 @@ $inc $set $unset
                定位符方式：db.blog.update({"comments.author": "John"}, {"$set": "comments.$.author": "Jim"})
 
  $upset
+ $currentDate: { lastModified: true } # 设置最后修改时间 == updated_at
 
 ```
