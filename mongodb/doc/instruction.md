@@ -41,3 +41,8 @@ $inc $set $unset
  $currentDate: { lastModified: true } # 设置最后修改时间 == updated_at
 
 ```
+
+### index
+```
+db.person.ensureIndex({"age":1})  “1”：表示按照age进行升序，“-1”：表示按照age进行降序
+```
