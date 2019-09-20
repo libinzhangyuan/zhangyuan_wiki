@@ -81,6 +81,12 @@ GET /my_index/_analyze
  [match_phrase_prefix](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_query_time_search_as_you_type.html) 查询时输入即搜索    "max_expansions": 50
  [edge_ngram](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html) 利用autocomplete分词器，在索引时实现查询时输入即搜索功能
 
+### 排序相关
+[即考虑相关性又考虑时间先后]() [2](https://www.elastic.co/guide/cn/elasticsearch/guide/current/boosting-by-popularity.html)
+[field_value_factor参数](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-function-score-query.html#function-field-value-factor)
+
+
+
 ### 算分相关
 ```
 https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/scoring-theory.html
