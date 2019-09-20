@@ -82,7 +82,7 @@ GET /my_index/_analyze
  [edge_ngram](https://elasticsearch.cn/book/elasticsearch_definitive_guide_2.x/_index_time_search_as_you_type.html) 利用autocomplete分词器，在索引时实现查询时输入即搜索功能
 
 ### 排序相关
-[即考虑相关性又考虑时间先后]() [2](https://www.elastic.co/guide/cn/elasticsearch/guide/current/boosting-by-popularity.html)
+[即考虑相关性又考虑时间先后]() [2](https://www.elastic.co/guide/cn/elasticsearch/guide/current/boosting-by-popularity.html) [3最详细的文章](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-function-score-query.html#function-decay)
 [field_value_factor参数](https://www.elastic.co/guide/en/elasticsearch/reference/5.6/query-dsl-function-score-query.html#function-field-value-factor)
 
 
