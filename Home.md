@@ -1,5 +1,6 @@
 ## 列表
 * [ruby](ruby/index)
+* [go](go/index)
 * [java](java/index)
 * [unix](unix/index)
 * [sql](sql/index)
