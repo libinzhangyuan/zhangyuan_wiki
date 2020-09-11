@@ -1,0 +1,1 @@
+[安装](https://www.jianshu.com/p/724315d13ad7)
