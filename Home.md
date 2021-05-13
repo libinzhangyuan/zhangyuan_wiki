@@ -2,6 +2,7 @@
 * [ruby](ruby/index)
 * [go](go/index)
 * [java](java/index)
+* [dart](dart/index)
 * [unix](unix/index)
 * [sql](sql/index)
 * [mongodb](mongodb/index)
