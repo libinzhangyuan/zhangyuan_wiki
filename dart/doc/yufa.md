@@ -11,14 +11,22 @@ querySelector('#confirm')
 ..classes.add('important')
 ..onClick.listen((e) => window.alert('Confirmed!'));
 
+类中getter setter写法   int get aProperty => _aProperty;
+set aProperty(int value) {}
 
+函数定义可选位置参数 int func(int a, [int b = 3, int c])
+函数定义可选明明参数 int func(int a, {String b}) {};   调用 func(1, b: 's')
 
+构造函数中使用this:   MyColor(this.red, {this.green, this.blue = 80})
 
+命名构造方法(构造函数) and 构造函数初始化列表
+                  Point.fromJson(Map<String, num> json)
+                    : x = json['x'],
+                      assert(json['b'] > 3) {}
 
+工厂构造方法：  factory Shape.fromJson(Map<String, num> json) {}
 
-
-
-
+重定向构造函数:   Automobile.hybrid(String make ,String model) : this(make, model, 60);
 
 
 
