@@ -15,9 +15,9 @@ querySelector('#confirm')
 set aProperty(int value) {}
 
 函数定义可选位置参数 int func(int a, [int b = 3, int c])
-函数定义可选明明参数 int func(int a, {String b}) {};   调用 func(1, b: 's')
+函数定义可选命名参数 int func(int a, {String b})    调用 func(1, b: 's')
 
-构造函数中使用this:   MyColor(this.red, {this.green, this.blue = 80})
+构造函数中使用this:   MyColor(this.red, {this.green, this.blue = 80})   直接给成员变量赋值
 
 命名构造方法(构造函数) and 构造函数初始化列表
                   Point.fromJson(Map<String, num> json)
@@ -28,6 +28,6 @@ set aProperty(int value) {}
 
 重定向构造函数:   Automobile.hybrid(String make ,String model) : this(make, model, 60);
 
-
+const构造方法  const ImmutablePoint(this.x)
 
 ```
