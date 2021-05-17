@@ -31,3 +31,5 @@ set aProperty(int value) {}
 const构造方法  const ImmutablePoint(this.x)
 
 ```
+
+* [变量](https://www.dartcn.com/guides/language/language-tour#%E5%8F%98%E9%87%8F)
