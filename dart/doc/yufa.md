@@ -30,6 +30,7 @@ set aProperty(int value) {}
 
 const构造方法  const ImmutablePoint(this.x)
 
+判断两个变量是否其实是同一个变量  assert(identical(a, b))
 ```
 
 * [变量](https://www.dartcn.com/guides/language/language-tour#%E5%8F%98%E9%87%8F)
