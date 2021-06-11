@@ -39,6 +39,8 @@ const构造方法  const ImmutablePoint(this.x)
 
 定义变量可以为null    double? x;
 定义成员变量初始值为null         class XXX { double? x }; // Declare instance variable x, initially null.
+
+相等比较 == 比较的hash指   identical 比较的是否引用的同一个对象
 ```
 
 * [变量](https://www.dartcn.com/guides/language/language-tour#%E5%8F%98%E9%87%8F)
