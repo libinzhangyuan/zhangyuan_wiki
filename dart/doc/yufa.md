@@ -42,9 +42,9 @@ const构造方法  const ImmutablePoint(this.x)
 
 相等比较 == 比较的hash指   identical 比较的是否引用的同一个对象
 
-同步生成器 函数内标记 sync*
-异步生成器 函数内标记 async*
+
 ```
 
 * [变量](https://www.dartcn.com/guides/language/language-tour#%E5%8F%98%E9%87%8F)
 * [covariant keyword 协变量](https://www.dartcn.com/guides/language/sound-problems#the-covariant-keyword) 比如需要父类参数，但传给它子类对象时，使用covariant来表示不要报错，代码故意的
+* [多线程,异步,stream](async)
