@@ -42,6 +42,7 @@ const构造方法  const ImmutablePoint(this.x)
 
 相等比较 == 比较的hash指   identical 比较的是否引用的同一个对象
 
+可调用类 通过实现类的 call() 方法， 能够让类像函数一样被调用。 https://www.dartcn.com/articles/language/emulating-functions
 
 ```
 
