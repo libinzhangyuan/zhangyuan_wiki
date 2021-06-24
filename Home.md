@@ -1,4 +1,5 @@
 ## 列表
+* [配置文件](config/index)
 * [前端](front/index)
 * [ruby](ruby/index)
 * [go](go/index)
