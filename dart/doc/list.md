@@ -8,4 +8,7 @@ list = List.filled(10, '');
 list = [1, 2, 3]
 list.length = 2 是可以调用的
 print list; // [1, 2]
+
+判断类型
+if (list is String)
 ```
