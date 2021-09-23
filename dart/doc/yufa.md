@@ -1,4 +1,6 @@
 ```
+~/ 取整 7~/5=1;    a = 7; a~/=5
+
 ??  ??=  避空运算符 a ??= 3   # ruby中，  a = 3 if a.nil?
 
 条件属性访问  a?.member    等效 (a != null) ? a.member : null   # ruby 中的 try 语法
