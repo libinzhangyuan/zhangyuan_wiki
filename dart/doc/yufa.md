@@ -11,6 +11,12 @@ as、is、is! 运算符是在运行时判断对象类型的运算符。 https://
 
 箭头语法 (便捷的定义短的函数) => aListOfStrings.any((s) => s.isEmpty);
 
+自执行方法:
+((){
+  print('1');
+}
+)();
+
 级联语法 ..   myObject..someMethod()
 querySelector('#confirm')
 ..text = 'Confirm'
