@@ -1,21 +1,10 @@
 ## 列表
 * [配置文件](config/index)
 * [前端](front/index)
-* [ruby](ruby/index)
-* [go](go/index)
-* [java](java/index)
-* [dart](dart/index)
-* [unix](unix/index)
-* [sql](sql/index)
-* [mongodb](mongodb/index)
-* [elasticsearch](elasticsearch/index)
-* [redis](redis/index)
+* [手机app端](mobile-app)
+* [服务器端](server)
 * [算法](algorith/index)
-* [分布式相关](distributed-system/index)
-* [oranme](oranme/index)
-* [docker](docker/index)
 
-* [nginx](nginx/index)
 <br/>
 <br/>
 <br/>
