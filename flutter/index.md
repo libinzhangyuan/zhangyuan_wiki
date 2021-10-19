@@ -3,6 +3,7 @@
 ### 学习网站
 * [flutter实战2](https://book.flutterchina.club/chapter1/mobile_development_intro.html)
 * [一个很棒的Flutter学习资源列表](https://www.devio.org/2018/09/09/awesome-flutter/)
+* [请收下我的 20 个 Flutter 开源项目](https://www.jianshu.com/p/72e359bfe1e0)
 <br>
 
 [各种资源](sources)
