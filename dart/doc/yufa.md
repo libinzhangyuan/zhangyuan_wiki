@@ -24,6 +24,9 @@ querySelector('#confirm')
 ..text = 'Confirm'
 ..classes.add('important')
 ..onClick.listen((e) => window.alert('Confirmed!'));
+空集联:  ?..  object为空时，则不调用后续
+querySelector('#confirm')
+  ?..text = 'Confirm'
 
 类中getter setter写法   int get aProperty => _aProperty;
 set aProperty(int value) {}
