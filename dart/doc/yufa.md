@@ -7,6 +7,10 @@ a ??= 3   # ruby中，  a = 3 if a.nil?
 
 条件属性访问  a?.member    等效 (a != null) ? a.member : null   # ruby 中的 try 语法
 
+空安全
+int? a 允许为空
+int a 不允许为空
+int? a;  a! a在此时,不允许为空
 
 获取对象的类型: a.runtimeType
 as、is、is! 运算符是在运行时判断对象类型的运算符。 https://dart.cn/guides/language/language-tour#type-test-operators
