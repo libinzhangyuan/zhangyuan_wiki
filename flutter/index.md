@@ -10,7 +10,7 @@
 
 
 ```
-flutter_add_image
+快速导入图片资源(assets) flutter_add_image
 
 
 ```
@@ -21,3 +21,7 @@ flutter_add_image
 stl stf 生成组件
 
 ```
+
+
+### flutter语法相关
+* [调试功能/调试插件](debug)
