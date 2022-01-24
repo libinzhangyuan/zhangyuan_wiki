@@ -25,3 +25,4 @@ stl stf 生成组件
 
 ### flutter语法相关
 * [调试功能/调试插件](debug)
+* [组件信息获取](widget-info)
