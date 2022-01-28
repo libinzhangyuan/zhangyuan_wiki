@@ -6,6 +6,11 @@
 * [请收下我的 20 个 Flutter 开源项目](https://www.jianshu.com/p/72e359bfe1e0)
 <br>
 
+### UI模板
+* [25+ Best Flutter App Templates of 2022](https://instaflutter.com/design/best-flutter-app-templates/)
+* [开发必备，5个很棒的开源Flutter UI套件](https://cloud.tencent.com/developer/news/477613)
+* [flutter_test_app](https://github.com/zhaolongs/flutter_demo_app)
+
 [各种资源](sources)
 
 
