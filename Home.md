@@ -4,6 +4,7 @@
 * [手机app端](mobile-app)
 * [服务器端](server)
 * [算法](algorith/index)
+* [设计](design/index)
 
 <br/>
 <br/>
