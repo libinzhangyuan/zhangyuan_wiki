@@ -5,6 +5,8 @@
 * [flutter 屏幕尺寸适配和字体大小适配的实现](https://cloud.tencent.com/developer/article/1719329) [文档github](https://github.com/OpenFlutter/flutter_ScreenUtil)
 
 * [Flutter UI适配详解 —— Flutter开发必看！ flutter_screenUtil使用限制讲解](https://blog.csdn.net/Ever69/article/details/120230952)
+* [flutter_screenUtil](https://github.com/OpenFlutter/flutter_ScreenUtil)
+
 
 ```
 flutter的大小单位默认为dp。
