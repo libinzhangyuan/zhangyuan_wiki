@@ -35,3 +35,14 @@ c.func1  # instance method #<C:0x0000000118ed08>
 
 注意：方案１和２函数内部的作用域不一样．
 ```
+
+
+```
+判断类  https://www.jianshu.com/p/636fcacbff3f
+instance_of? 方法用来判断对象是否是一个类的实例，会忽略继承。
+
+判断类包括继承  https://www.jianshu.com/p/636fcacbff3f
+is_a? kinde_of?
+
+
+```
