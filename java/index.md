@@ -1,5 +1,11 @@
 [back](../Home)
 
+
+* [安装](doc/install/index)
+
+
+
+
 * [集合/容器](doc/containers)
 * [io流](doc/io_stream)
 * [多线程](doc/multithread)
