@@ -1,8 +1,8 @@
 [back](../Home)
 
 
-* [安装](doc/install/index)
-
+* [idea安装 废弃，都不好用，淘宝买吧](doc/install/index)
+* [项目创建障碍](doc/create-new-project)
 
 
 
