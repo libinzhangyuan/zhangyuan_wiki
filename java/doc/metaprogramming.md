@@ -12,5 +12,7 @@ Class.forName("TestClass");
 
 类型通配符 List<?> data
 https://www.runoob.com/java/java-generics.html
+类型通配符上限形如 List<? extends Number>
+类型通配符下限形如 List<? super Number> 
 
 ```
