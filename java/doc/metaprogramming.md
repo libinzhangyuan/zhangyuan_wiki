@@ -9,4 +9,8 @@ Annotation annos[] = m.getAnnotations();
 
 Class.forName("TestClass"); 
 
+
+类型通配符 List<?> data
+https://www.runoob.com/java/java-generics.html
+
 ```
