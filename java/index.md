@@ -15,3 +15,4 @@
 * [spring](doc/spring)
 * [spring_data_jpa](doc/spring_data_jpa)
 * [spring_bean](doc/spring_bean)
+* [MyBatis](doc/mybatis/index)
