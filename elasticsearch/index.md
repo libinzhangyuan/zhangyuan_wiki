@@ -5,6 +5,7 @@
 * [安装](doc/install)
 * [公司环境启动](doc/run)
 * [api](doc/api)
+* [知识](doc/acknowloge)
 
 ```
 首先罗列标题完全匹配的。
