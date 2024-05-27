@@ -1,3 +1,8 @@
+* [ElasticSearch 中使用衰减函数来完美你的搜索结果](https://cloud.tencent.com/developer/article/2372016)
+
+
+### 下面是 kimi回答的
+
 ```
 1 结合相关性得分和时间戳进行复合排序：
 
