@@ -6,6 +6,8 @@
 * [算法](algorith/index)
 * [设计](design/index)
 * [独立开发-资源](resource-for-dev)
+* [大模型](bid-data)
+
 
 <br/>
 <br/>
