@@ -1,4 +1,3 @@
-
 es8.13启动时的各种默认生成的密码token等
 
 
@@ -7,7 +6,7 @@ es8.13启动时的各种默认生成的密码token等
 ✅ Authentication is enabled and cluster connections are encrypted.
 
 ℹ️  Password for the elastic user (reset with `bin/elasticsearch-reset-password -u elastic`):
-  kA_K42saJr2_OytD3YLX
+  t447iY*ScLtdaEHTzWs*
 
 ℹ️  HTTP CA certificate SHA-256 fingerprint:
   8563f6c2189208cfdc6ec7234008986dd2e0c9d42fbc576a355f68266bab4807
@@ -42,5 +41,9 @@ es8.13启动时的各种默认生成的密码token等
 ```
 ./elasticsearch-reset-password --batch --user kibana_system
 New value: jn7a4u3OCF5D2DN1r0Ht
+
+
+./elasticsearch-reset-password --batch --user elastic
+New value:  t447iY*ScLtdaEHTzWs*
 
 ```
