@@ -1,9 +1,11 @@
 ```
-cd work/serv/wiki
-. run.sh
+webtest上：
+cd ~/es/
+. run.sh # 启动的8.13 媒资库用
 
-cd ../zhangyuan_wiki
-. run.sh
+或
+. run5.5.sh # 启动的5.5 . nbd_english用的
+
 
 
 # 启动es  - 另开一个控制台
