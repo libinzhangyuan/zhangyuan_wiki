@@ -1,13 +1,13 @@
 [返回](/elasticsearch/doc/zhishi-tupu/index)
 
-match  match_pharse
+搜索的类型： match  match_pharse term terms
 
 bool
 should must filter must_not
 
-
-
 function_score
+
+content.keyword
 
 
 
