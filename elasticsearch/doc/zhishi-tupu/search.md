@@ -1,6 +1,13 @@
 [返回](/elasticsearch/doc/zhishi-tupu/index)
 
-搜索的类型： match  match_phrase term terms range wildcard
+搜索的类型： 
+match  
+match_phrase 
+[term](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-term-query.html)
+terms 
+[match]()
+[range](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-range-query.html)
+wildcard
 
 bool
 should must filter must_not
