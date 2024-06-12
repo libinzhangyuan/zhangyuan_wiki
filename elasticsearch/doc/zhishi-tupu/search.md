@@ -1,6 +1,6 @@
 [返回](/elasticsearch/doc/zhishi-tupu/index)
 
-搜索的类型： match  match_pharse term terms wildcard
+搜索的类型： match  match_phrase term terms wildcard
 
 bool
 should must filter must_not
