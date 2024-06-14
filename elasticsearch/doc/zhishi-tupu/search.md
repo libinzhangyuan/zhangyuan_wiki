@@ -11,7 +11,7 @@ wildcard
 bool
 should must filter must_not
 
-function_score
+constant_score function_score
 
 content.keyword
 
