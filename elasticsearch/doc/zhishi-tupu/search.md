@@ -9,7 +9,7 @@ terms [minimum_should_match](minimum_should_match)
 wildcard
 
 bool [minimum_should_match](minimum_should_match)
-should must filter must_not
+should (should-and) must filter must_not
 
 constant_score function_score
 
