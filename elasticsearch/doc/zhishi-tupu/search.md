@@ -26,6 +26,10 @@ bool
 
 constant_score [function_score](function-score)
 
+[Disjunction max query](disjunction-max-queryedit)
+
+
+
 content.keyword
 
 
