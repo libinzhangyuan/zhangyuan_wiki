@@ -11,7 +11,7 @@ wildcard
 bool [minimum_should_match](minimum_should_match)
 should (should-and) must filter must_not
 
-constant_score [function_score](function_score)
+constant_score [function_score](function-score)
 
 content.keyword
 
