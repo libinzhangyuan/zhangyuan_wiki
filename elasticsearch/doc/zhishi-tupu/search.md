@@ -9,7 +9,7 @@
 * terms
 * [range](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-range-query.html)
 * wildcard
-* [minimum_should_match](minimum_should_match)
+* [minimum_should_match](minimum-should-match)
 
 bool
 
