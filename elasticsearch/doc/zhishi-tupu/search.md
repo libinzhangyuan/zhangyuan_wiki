@@ -11,6 +11,11 @@
 * wildcard
 * [minimum_should_match](minimum-should-match)
 
+* [geo query](geo-query)
+* [sharp query](sharp-query)
+* [Joining queries (nested query, has_child and has_parent queries)](https://www.elastic.co/guide/en/elasticsearch/reference/current/joining-queries.html)
+
+
 bool
 
 * should (should - and)
