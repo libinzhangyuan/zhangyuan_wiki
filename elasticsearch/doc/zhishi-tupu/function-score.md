@@ -1,4 +1,4 @@
-[返回]()
+[返回](/elasticsearch/doc/zhishi-tupu/search)
 
 ### function_score
 
