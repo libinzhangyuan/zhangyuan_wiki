@@ -28,7 +28,7 @@ constant_score [function_score](function-score)
 
 [Disjunction max query](disjunction-max-queryedit)
 
-
+[Boosting query](boosting-query)
 
 content.keyword
 
