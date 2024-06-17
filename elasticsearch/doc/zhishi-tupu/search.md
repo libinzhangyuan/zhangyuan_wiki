@@ -23,4 +23,7 @@ constant_score [function_score](function-score)
 
 content.keyword
 
-explain
+调优
+* explain
+* [search_type=dfs_query_then_fetch](https://www.bilibili.com/video/BV1jL411p78i?p=10&vd_source=12fa3a2f2f260d2e21c49b5cb6b91885)
+
