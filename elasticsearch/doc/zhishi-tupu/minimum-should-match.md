@@ -21,6 +21,10 @@ https://blog.csdn.net/wlei0618/article/details/130577679
 
 minimum_should_match: "-1" 最多不匹配的个数为一个
 
+"-25%"  "3<90%" "2<-25% 9<-3" 
+https://blog.csdn.net/weixin_38376791/article/details/132988721
+
+
 并且，es背后其实会将query展开为 bool下单个should,或must(当query的条件为and时)， 即，展开为上面那个
 见这个视频: https://www.bilibili.com/video/BV1jL411p78i?p=8&vd_source=12fa3a2f2f260d2e21c49b5cb6b91885
 
