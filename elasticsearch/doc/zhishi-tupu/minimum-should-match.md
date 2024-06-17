@@ -6,6 +6,9 @@
 # 对bool中，可以加minimum_should_match
 minimum_should_match: 4  表示bool下的should条件至少要匹配几个。
 
+额外注意：
+如果 bool 查询包含至少一个 should 子句，而没有 must 或 filter 子句，则minimum_should_match默认值为 1。
+如果 bool 查询中同级子句中出现了 must 或者 filter 子句，则 minimum_should_match 的默认值将变为 0。
 ```
 
 
