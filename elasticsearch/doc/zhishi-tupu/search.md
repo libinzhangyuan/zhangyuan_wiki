@@ -6,18 +6,18 @@
 * match_all
 * match_phrase 
 * [term](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-term-query.html)
-* terms [minimum_should_match](minimum_should_match)
+* terms
 * [range](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-range-query.html)
 * wildcard
-
+* [minimum_should_match](minimum_should_match)
 
 bool
 
-* [minimum_should_match](minimum_should_match)
 * should (should - and)
 * must
 * must_not
 * filter
+* [minimum_should_match](minimum_should_match)
 
 constant_score [function_score](function-score)
 
