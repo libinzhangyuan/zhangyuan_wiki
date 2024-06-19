@@ -5,7 +5,8 @@
 * match
 * match_all
 * [match_phrase](match-phrase)  slop
-* match_phrase_prefix
+* [prefix](prefix)
+* [match_phrase_prefix](match-phrase-prefix)
 * [match_bool_prefix](match-bool-prefix)
 * [term](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-term-query.html)
 * terms
