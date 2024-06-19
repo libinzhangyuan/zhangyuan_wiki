@@ -7,7 +7,7 @@
 * [match_phrase](match-phrase)  slop
 * [prefix](prefix)
 * [match_phrase_prefix](match-phrase-prefix)
-* [match_bool_prefix](match-bool-prefix)
+* [match_bool_prefix](match-bool-prefix)  [search_as_you_type](search-as-you-type)
 * [term](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-term-query.html)
 * terms
 * [range](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-range-query.html)
