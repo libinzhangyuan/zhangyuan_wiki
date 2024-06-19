@@ -12,7 +12,7 @@
 * wildcard
 * [minimum_should_match](minimum-should-match)
 
-* [multi_match](multi-match) best_fields、most_fields、[cross_fields](cross-fields) [cross_fields with and](cross-fields-with-and) &nbsp;&nbsp;&nbsp; tiebreaker copy_to
+* [multi_match](multi-match) best_fields、most_fields、[cross_fields](cross-fields) [cross_fields with and](cross-fields-with-and) [bool_prefix](bool-prefix) &nbsp;&nbsp;&nbsp; tiebreaker copy_to
 * [dis_max](dis-max)
 * [geo query](geo-query)
 * [sharp query](sharp-query)
