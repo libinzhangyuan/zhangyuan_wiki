@@ -5,6 +5,12 @@
 ```
 
 
+```
+官方，查看参数方便
+https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query-phrase.html
+
+```
+
 ### 优化
 ```
 https://blog.csdn.net/qq_42383787/article/details/99967622
