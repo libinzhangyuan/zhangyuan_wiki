@@ -4,7 +4,7 @@
 
 * match
 * match_all
-* [match_phrase](match-phrase)  slop
+* [match_phrase](match-phrase) &nbsp;&nbsp;&nbsp; [match_phrase with slop](match-phrase-slop)
 * [prefix](prefix)
 * [match_phrase_prefix](match-phrase-prefix)
 * [match_bool_prefix](match-bool-prefix)  [search_as_you_type](search-as-you-type)
