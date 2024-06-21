@@ -9,7 +9,7 @@
 * terms
 * [range](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-range-query.html)
 * [minimum_should_match](minimum-should-match)
-* [multi_match](multi-match) best_fields、most_fields、[cross_fields](cross-fields) [(cross_fields with and)](cross-fields-with-and)  [tie_breaker](multi-match-with-tie-breaker)
+* [multi_match](multi-match) best_fields、most_fields、[cross_fields](cross-fields) [(cross_fields with and)](cross-fields-with-and)  [tie_breaker](multi-match-with-tie-breaker) [minimum_should_match](multi-match-with-minimum-should-match)
 * [bool_prefix](bool-prefix) &nbsp;&nbsp;&nbsp; tiebreaker copy_to
 
 * [prefix](prefix)  [wildcard](wildcard)  [regexp](regexp)
