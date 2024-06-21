@@ -2,7 +2,7 @@
 
 搜索的类型： 
 
-* match
+* match  [minimum_should_match](match-with-minimum-should-match)
 * match_all
 * [match_phrase](match-phrase) &nbsp;&nbsp;&nbsp; [match_phrase with slop](match-phrase-slop)
 * [term](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-term-query.html)
