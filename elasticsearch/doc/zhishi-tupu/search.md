@@ -5,21 +5,20 @@
 * match
 * match_all
 * [match_phrase](match-phrase) &nbsp;&nbsp;&nbsp; [match_phrase with slop](match-phrase-slop)
-* [prefix](prefix)  [wildcard](wildcard)  [regexp](regexp)
-* [match_phrase_prefix](match-phrase-prefix)
-* [match_bool_prefix](match-bool-prefix)  [search_as_you_type](search-as-you-type)
 * [term](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-term-query.html)
 * terms
 * [range](https://www.elastic.co/guide/en/elasticsearch/reference/6.0/query-dsl-range-query.html)
-* 
 * [minimum_should_match](minimum-should-match)
-
 * [multi_match](multi-match) best_fields、most_fields、[cross_fields](cross-fields) [(cross_fields with and)](cross-fields-with-and) [bool_prefix](bool-prefix) &nbsp;&nbsp;&nbsp; tiebreaker copy_to
+
+* [prefix](prefix)  [wildcard](wildcard)  [regexp](regexp)
+* [match_phrase_prefix](match-phrase-prefix)
+* [match_bool_prefix](match-bool-prefix)  [search_as_you_type](search-as-you-type)
+* [Joining queries (nested query, has_child and has_parent queries)](https://www.elastic.co/guide/en/elasticsearch/reference/current/joining-queries.html)
+
 * [dis_max](dis-max)
 * [geo query](geo-query)
 * [sharp query](sharp-query)
-* [Joining queries (nested query, has_child and has_parent queries)](https://www.elastic.co/guide/en/elasticsearch/reference/current/joining-queries.html)
-
 
 bool
 
