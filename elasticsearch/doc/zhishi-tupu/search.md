@@ -36,6 +36,8 @@ constant_score [function_score](function-score)
 
 [Boosting query](boosting-query)
 
+[fuzzy](fuzzy) &nbsp;&nbsp; fuzziness  &nbsp;&nbsp; prefix_length
+
 content.keyword
 
 
