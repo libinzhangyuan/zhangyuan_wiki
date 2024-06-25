@@ -41,6 +41,10 @@ constant_score [function_score](function-score)
 content.keyword
 
 
+[search suggester](https://www.elastic.co/guide/en/elasticsearch/reference/6.1/search-suggesters.html)
+[search suggester completion](https://www.elastic.co/guide/en/elasticsearch/reference/6.1/search-suggesters-completion.html)
+
+
 调优
 
 * explain
