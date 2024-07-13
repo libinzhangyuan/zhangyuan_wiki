@@ -10,7 +10,10 @@ rollup
 
 物化视图
 查看单个： SHOW CREATE VIEW view_name; 
+特定的物化视图，你可以使用 DESC view_name; 
 查看所有:  SELECT * FROM information_schema.materialized_views; 
+创建: CREATE MATERIALIZED VIEW my_materialized_view AS
+       SELECT column1, column2 FROM my_table WHERE condition GROUP BY group_by_column ORDER BY order_column;
 ```
 
 各种join:<br>
