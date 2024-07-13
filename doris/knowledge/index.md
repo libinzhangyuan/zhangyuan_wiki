@@ -6,6 +6,7 @@ explain graph
 rollup
 查看某张表的rollup: SHOW ROLLUP FROM `your_database`.`your_table`;
 查看所有的Rollup信息: SHOW ALTER TABLE ROLLUP;
+创建： alter table user_costs add rollup rollup_cost_userid(user_id, cos);
 
 物化视图
 查看单个： SHOW CREATE VIEW view_name; 
