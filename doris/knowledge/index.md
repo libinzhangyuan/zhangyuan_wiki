@@ -10,7 +10,7 @@ rollup
 
 物化视图 https://doris.apache.org/zh-CN/docs/query/view-materialized-view/materialized-view
 查看单个： SHOW CREATE VIEW view_name; 
-特定的物化视图，你可以使用 DESC view_name; 
+特定的物化视图，你可以使用 DESC view_name;   desc mv_test all;
 查看所有:  SELECT * FROM information_schema.materialized_views; 
 创建: CREATE MATERIALIZED VIEW my_materialized_view AS
        SELECT column1, column2 FROM my_table WHERE condition GROUP BY group_by_column ORDER BY order_column;
