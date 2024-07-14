@@ -8,7 +8,7 @@ rollup
 查看所有的Rollup信息: SHOW ALTER TABLE ROLLUP;
 创建： alter table user_costs add rollup rollup_cost_userid(user_id, cos);
 
-物化视图
+物化视图 https://doris.apache.org/zh-CN/docs/query/view-materialized-view/materialized-view
 查看单个： SHOW CREATE VIEW view_name; 
 特定的物化视图，你可以使用 DESC view_name; 
 查看所有:  SELECT * FROM information_schema.materialized_views; 
@@ -27,3 +27,7 @@ shuffle join &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [Bucket Shuffle](bucket-shuffle) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 [colocation join](colocation-join/index) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 [sort merge join](sort-merge-join)
+
+
+
+bitmap_union(to_bitmap(user_id))
