@@ -16,6 +16,15 @@ rollup
        SELECT column1, column2 FROM my_table WHERE condition GROUP BY group_by_column ORDER BY order_column;
 ```
 
+各种索引： &nbsp; &nbsp; &nbsp; [原则](index-yuanzhe)
+  点查索引 -
+    前缀索引
+    倒排索引
+  跳数索引 -
+    ZoneMap索引
+    BloomFilter索引
+    NGram BloomFilter索引
+
 各种join:<br>
  &nbsp;&nbsp;&nbsp;&nbsp; 
 [join分析：shuffle hash join、broadcast hash join](https://www.cnblogs.com/tgzhu/p/15211820.html) <br>
