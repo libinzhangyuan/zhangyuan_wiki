@@ -16,14 +16,16 @@ rollup
        SELECT column1, column2 FROM my_table WHERE condition GROUP BY group_by_column ORDER BY order_column;
 ```
 
-各种索引： &nbsp; &nbsp; &nbsp; [原则](index-yuanzhe)
-  点查索引 -
-    前缀索引
-    倒排索引
-  跳数索引 -
-    ZoneMap索引
-    BloomFilter索引
-    NGram BloomFilter索引
+各种索引： &nbsp; &nbsp; &nbsp; [原则](index-yuanzhe)<br>
+&nbsp; &nbsp;   点查索引:<br>
+&nbsp; &nbsp; &nbsp; &nbsp;     前缀索引<br>
+&nbsp; &nbsp;&nbsp; &nbsp;      倒排索引<br>
+&nbsp; &nbsp;   跳数索引:<br>
+&nbsp; &nbsp; &nbsp; &nbsp;     ZoneMap索引<br>
+&nbsp; &nbsp; &nbsp; &nbsp;     BloomFilter索引<br>
+&nbsp; &nbsp; &nbsp; &nbsp;     NGram BloomFilter索引<br>
+
+
 
 各种join:<br>
  &nbsp;&nbsp;&nbsp;&nbsp; 
