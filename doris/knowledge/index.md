@@ -16,7 +16,7 @@ rollup
        SELECT column1, column2 FROM my_table WHERE condition GROUP BY group_by_column ORDER BY order_column;
 ```
 
-各种索引： &nbsp; &nbsp; &nbsp; [原则](index-yuanzhe)<br>
+[各种索引](https://doris.apache.org/zh-CN/docs/table-design/index/index-overview)： &nbsp; &nbsp; &nbsp; [原则](index-yuanzhe)<br>
 &nbsp; &nbsp;   点查索引:<br>
 &nbsp; &nbsp; &nbsp; &nbsp;     前缀索引<br>
 &nbsp; &nbsp;&nbsp; &nbsp;      倒排索引<br>
