@@ -9,7 +9,7 @@ rollup
 创建： alter table user_costs add rollup rollup_cost_userid(user_id, cos);
 
 物化视图 https://doris.apache.org/zh-CN/docs/query/view-materialized-view/materialized-view
-查看单个： SHOW CREATE VIEW view_name; 
+查看当前表的物化视图及其结构： SHOW CREATE VIEW view_name; 
 特定的物化视图，你可以使用 DESC view_name;   desc mv_test all;
 查看所有:  SELECT * FROM information_schema.materialized_views; 
 创建: CREATE MATERIALIZED VIEW my_materialized_view AS
