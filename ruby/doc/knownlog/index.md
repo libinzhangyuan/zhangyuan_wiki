@@ -1,3 +1,5 @@
+[返回](/ruby/index)
+
 # ruby 知识图谱
 
 
