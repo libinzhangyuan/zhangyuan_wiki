@@ -8,5 +8,5 @@
 
 
 super ancestors <br>
-[extend include prepend](https://ruby-china.org/topics/35350)<br>
+[extend include prepend](extend-include-prepend)<br>
 [singleton_class](https://ruby-china.org/topics/35350)<br>
