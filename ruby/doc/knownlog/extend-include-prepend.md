@@ -1,3 +1,4 @@
+[返回](/ruby/doc/knownlog/index)
 
 
 [分享 Ruby 中 require,load,autoload,extend,include,prepend 的区别](https://ruby-china.org/topics/35350)
