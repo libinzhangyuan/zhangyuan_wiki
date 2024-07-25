@@ -1,18 +1,28 @@
 * 函数定义
 定义类函数
 ```
-# 待验证
+# 下面这个定义的是类函数
 class Example
   def initialize(test='hey')
     define_singleton_method :say_hello, lambda { test }
   end
 end
+Example.new.say_hello   -》 "hey"
+
+# 但是下面这个又定义的是类的函数
+Example.define_singleton_method(:who_am_i) do
+  "I am"
+end
+Example.who_am_i   # ==> "I am: A"
 ```
 
-定义函数
+定义类函数
 ```
-# 待验证
-self.class.send(:define_method, :say_hello) { test }
+# 已验证
+class Example
+end
+Example.send(:define_method, :say_hello) { "test" }
+Example.new.say_hello
 ```
 
 
