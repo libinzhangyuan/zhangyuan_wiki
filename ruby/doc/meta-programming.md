@@ -16,6 +16,11 @@ Example.define_singleton_method(:who_am_i) do
   "I am"
 end
 Example.who_am_i   # ==> "I am: A"
+
+# 第3中
+guy = "Bob"
+guy.define_singleton_method(:hello) { "#{self}: Hello there!" }
+guy.hello    #=>  "Bob: Hello there!"
 ```
 
 定义类函数
