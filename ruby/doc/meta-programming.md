@@ -1,5 +1,7 @@
 * 函数定义
-定义类函数
+
+
+[define_singleton_method](https://vimsky.com/examples/usage/ruby-Object-method-i-define_singleton_method-rb.html)
 ```
 # 下面这个定义的是类函数
 class Example
