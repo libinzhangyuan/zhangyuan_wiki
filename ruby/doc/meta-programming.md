@@ -17,7 +17,7 @@ Example.define_singleton_method(:who_am_i) do
 end
 Example.who_am_i   # ==> "I am: A"
 
-# 第3中
+# 第3种
 guy = "Bob"
 guy.define_singleton_method(:hello) { "#{self}: Hello there!" }
 guy.hello    #=>  "Bob: Hello there!"
