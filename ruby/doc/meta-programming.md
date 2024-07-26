@@ -1,7 +1,7 @@
-
 [原编程书籍介绍ruby-china](https://ruby-china.org/wiki/ruby-meta)
+[ [新手指南] Ruby 的 Block 以及 Proc.new 与 Lambda 的区别](https://ruby-china.org/topics/25197)
 
-
+<br><br><br>
 
 * 函数定义
 
