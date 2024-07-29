@@ -3,7 +3,7 @@
 * [java容器中   哪些是线程安全的](https://www.cnblogs.com/mark5/p/11107310.html)
 * [foreach、Iterator、for 使用中的线程安全问题](https://blog.csdn.net/weixin_41922349/article/details/105530836)
 * [聊聊Servlet、Struts1、Struts2以及SpringMvc中的线程安全](https://developer.aliyun.com/article/581565)
-* [Servlet 单例多线程](https://developer.aliyun.com/article/581565)
+* [Servlet 单例多线程](servlet-single-mode-multi-threads)
 
 ```
 String线程安全  StringBuffer线程安全  StringBuilder非线程安全
