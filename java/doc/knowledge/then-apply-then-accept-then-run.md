@@ -22,4 +22,7 @@ future.thenApply(result -> {
     System.out.println("所有操作完成");
 });
 
+在这个例子里，小黑用supplyAsync启动了一个异步任务来查询数据库。
+然后用thenApply处理查询结果，用thenAccept消费处理后的结果，最后用thenRun标记所有操作完成。
+
 ```
