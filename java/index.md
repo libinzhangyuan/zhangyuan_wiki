@@ -1,4 +1,4 @@
-[back](../Home)
+[back](/server)
 
 
 * [idea安装 废弃，都不好用，淘宝买吧](doc/install/index)
