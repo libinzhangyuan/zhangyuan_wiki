@@ -9,4 +9,4 @@ thenCombine &nbsp;&nbsp; <br>
 [thenApply &nbsp;&nbsp;   thenAccept &nbsp;&nbsp;   thenRun](then-apply-then-accept-then-run)<br>
 
 
-[exceptionally](exceptionally)<br>
+[exceptionally handle 管道式异常处理](exceptionally)<br>
