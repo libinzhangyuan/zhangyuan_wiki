@@ -10,3 +10,5 @@ supplyAsync &nbsp;&nbsp; runAsync<br>
 
 
 [exceptionally handle 管道式异常处理](exceptionally)<br>
+
+[组合异步操作时的错误处理,避免一个未捕获的异常破坏整个操作链](ctl-exception-when-compose-job)
