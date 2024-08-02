@@ -4,7 +4,7 @@ supplyAsync &nbsp;&nbsp; runAsync<br>
 
 [complete](complete)<br>
 
-[thenCombine](then-combine) &nbsp;&nbsp; [thenCompose](then-compose)<br>
+[thenCombine](then-combine) &nbsp;&nbsp; [thenCompose](then-compose)  &nbsp;&nbsp;  [allOf](all-of)<br>
 
 [thenApply &nbsp;&nbsp;   thenAccept &nbsp;&nbsp;   thenRun](then-apply-then-accept-then-run)<br>
 
