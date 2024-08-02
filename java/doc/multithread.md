@@ -11,6 +11,8 @@
 * [14个Java并发容器，你用过几个？](https://zhuanlan.zhihu.com/p/268231810)
 * [java容器中   哪些是线程安全的](https://www.cnblogs.com/mark5/p/11107310.html)
 
+### 任务编排
+* [优雅处理并发：Java CompletableFuture最佳实践](https://segmentfault.com/a/1190000044543793)
 
 ### 其他
 * [Java synchronized详解](https://www.cnblogs.com/devinzhang/archive/2011/12/14/2287675.html)
