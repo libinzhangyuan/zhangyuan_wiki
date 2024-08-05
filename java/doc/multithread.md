@@ -17,7 +17,7 @@
 ### 其他
 * [Java synchronized详解](https://www.cnblogs.com/devinzhang/archive/2011/12/14/2287675.html)
 * [foreach、Iterator、for 使用中的线程安全问题](https://blog.csdn.net/weixin_41922349/article/details/105530836)
-
+* [异步利器 CompletableFuture vs Parallel Stream 选哪个](https://blog.csdn.net/mingliangniwo/article/details/81708468)
 
 ```
 String线程安全  StringBuffer线程安全  StringBuilder非线程安全
