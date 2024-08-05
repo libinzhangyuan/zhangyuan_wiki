@@ -1,5 +1,6 @@
 [返回](/java/doc/multithread)
 
+CompletableFuture
 
 supplyAsync &nbsp;&nbsp; runAsync<br>
 
@@ -9,6 +10,7 @@ supplyAsync &nbsp;&nbsp; runAsync<br>
 
 [thenApply &nbsp;&nbsp;   thenAccept &nbsp;&nbsp;   thenRun](then-apply-then-accept-then-run)<br>
 
+[acceptEither &nbsp;&nbsp;    &nbsp;&nbsp;   applyToEither]
 
 [exceptionally handle 管道式异常处理](exceptionally)<br>
 
