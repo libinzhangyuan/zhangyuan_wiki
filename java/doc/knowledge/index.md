@@ -15,7 +15,7 @@ supplyAsync &nbsp;&nbsp; runAsync<br>
 
 [complete obtrudeValue](complete)  &nbsp;&nbsp;  [completeExceptionally obtrudeException](complete-exceptionally)<br>
 
-[thenCombine](then-combine) &nbsp;&nbsp; [thenCompose](then-compose)  &nbsp;&nbsp;  [allOf](all-of)<br>
+[thenCombine thenAcceptBoth](then-combine) &nbsp;&nbsp; [thenCompose](then-compose)  &nbsp;&nbsp;  [allOf](all-of)<br>
 
 [thenApply &nbsp;&nbsp;   thenAccept &nbsp;&nbsp;   thenRun](then-apply-then-accept-then-run)<br>
 
