@@ -4,7 +4,7 @@ CompletableFuture
 [completableFuture终极指南](https://www.jianshu.com/p/744856fc098f)
 
 
-[get（long timeout，TimeUnit unit](get-with-timeout)
+[get（long timeout，TimeUnit unit)](get-with-timeout)  &nbsp;&nbsp;  [getNow(valueIfAbsent)](get-now)
 
 supplyAsync &nbsp;&nbsp; runAsync<br>
 
