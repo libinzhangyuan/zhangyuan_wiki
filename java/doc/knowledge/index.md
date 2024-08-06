@@ -8,7 +8,7 @@ CompletableFuture
 
 supplyAsync &nbsp;&nbsp; runAsync<br>
 
-[complete](complete)<br>
+[complete obtrudeValue](complete)  &nbsp;&nbsp;  [completeExceptionally obtrudeException](complete-exceptionally)<br>
 
 [thenCombine](then-combine) &nbsp;&nbsp; [thenCompose](then-compose)  &nbsp;&nbsp;  [allOf](all-of)<br>
 
