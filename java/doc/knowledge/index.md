@@ -19,7 +19,7 @@ supplyAsync &nbsp;&nbsp; runAsync<br>
 
 [thenApply &nbsp;&nbsp;   thenAccept &nbsp;&nbsp;   thenRun](then-apply-then-accept-then-run)<br>
 
-[acceptEither] &nbsp;&nbsp;  [applyToEither]  &nbsp;&nbsp;   [runAfterEither](fun-after-either)
+[acceptEither](accept-either) &nbsp;&nbsp;  [applyToEither](apply-to-either)  &nbsp;&nbsp;   [runAfterEither](fun-after-either)
 
 [exceptionally handle 管道式异常处理](exceptionally)<br>
 
