@@ -2,6 +2,7 @@
 
 
 ```
+任何一个future执行完就触发
 
         CompletableFuture<String> fast = fetchFast(); 
        
