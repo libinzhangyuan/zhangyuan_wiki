@@ -1,5 +1,14 @@
 [back](../Index)
 
+###
+```
+查任务执行计划 explain
+db.inventory.find( { qty: { $eq: 20 } } ).explain()
+
+
+
+```
+
 ### find findOne
 ```
 And: db.inventory.find( { status: "A", qty: { $lt: 30 } } )
