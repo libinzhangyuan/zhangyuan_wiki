@@ -2,9 +2,6 @@
 
 
 
-
-下面是将之前关于 **Dynamic Join 插件** 使用的回答转换成的 Markdown 格式。
-
 ```markdown
 # Dynamic Join 插件与 MyBatis-Plus 多表查询方案
 
