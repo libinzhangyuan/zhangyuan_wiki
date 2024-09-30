@@ -13,6 +13,7 @@ idea中安装 plantUML插件，然后选择相关的文件(可多选)后，右�
 
 然后拷贝 plantUML代码到 钉钉文档中，生成类图图片。
      或利用 https://www.min2k.com/tools/mermaid/
+           https://www.planttext.com/#google_vignette
 ```
 
 
