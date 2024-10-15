@@ -1,4 +1,4 @@
-* [老app的接口,绍鹏时代](wiki.nbd.cn/nbd-app/app-api/index)
+* [老app的接口,绍鹏时代](http://wiki.nbd.cn/nbd-app/app-api/index)
 
 
 
