@@ -3,7 +3,7 @@
 [ruby ：为什么要搞出block，proc，lambda这三个玩意](https://zhuanlan.zhihu.com/p/89694746)<br><br>
 [总结：Ruby中的@ % # $等各种千奇百怪的符号的含义等](https://blog.csdn.net/yy19890521/article/details/91376727)<br>
 [Ruby instance_exec 和 instance_eval 有啥区别, class_exec 和 class_eval](https://ruby-china.org/topics/2286)<br>
-[类变量，类实例变量，实例变量。 （推荐使用类实例变量代替类变量）](leishili-leibianniang)<br>
+
 <br><br><br>
 
 * 函数定义
