@@ -10,6 +10,9 @@
 
 
 [define_singleton_method在接收器中定义一个单例方法](https://vimsky.com/examples/usage/ruby-Object-method-i-define_singleton_method-rb.html)
+[define_method vs define_singleton_method](doc/define-singleton-method-define-method)
+
+
 ```
 # 下面这个定义的是类函数
 class Example
@@ -69,5 +72,10 @@ instance_of? 方法用来判断对象是否是一个类的实例，会忽略继�
 判断类包括继承  https://www.jianshu.com/p/636fcacbff3f
 is_a? kinde_of?
 
+
+```
+
+```
+class_variable_get class_variable_set
 
 ```
