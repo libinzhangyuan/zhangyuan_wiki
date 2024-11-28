@@ -9,8 +9,8 @@
 * 函数定义
 
 
-[define_singleton_method在接收器中定义一个单例方法](https://vimsky.com/examples/usage/ruby-Object-method-i-define_singleton_method-rb.html)
-[define_method vs define_singleton_method](doc/define-singleton-method-define-method)
+[define_singleton_method在接收器中定义一个单例方法](https://vimsky.com/examples/usage/ruby-Object-method-i-define_singleton_method-rb.html)<br>
+[define_method vs define_singleton_method](doc/define-singleton-method-define-method)<br>
 
 
 ```
