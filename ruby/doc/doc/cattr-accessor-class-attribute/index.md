@@ -1,3 +1,5 @@
+[返回](/ruby/doc/meta-programming)
+
 `cattr_accessor` 和 `class_attribute` 都是 Rails 提供的用于定义类级别属性的方法，但它们的行为有一些关键差异。理解这两者的区别有助于在合适的场景中选择合适的方法。
 
 ---
