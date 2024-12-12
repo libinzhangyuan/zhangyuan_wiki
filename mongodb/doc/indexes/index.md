@@ -13,7 +13,7 @@ db.books.totalIndexSize()
 db.books.totalIndexSize(1) # 更详细
 
 # 删除索引
-db.collection.dropIndex("books")
+db.books.dropIndex("title1")
 
 
 
