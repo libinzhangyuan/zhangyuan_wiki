@@ -1,3 +1,5 @@
+[返回](/mongodb/doc/indexes/multikey-index/index)
+
 在 MongoDB 中，多键索引（Multikey Index）主要用于支持数组类型字段的索引。它可以高效地查询数组中的元素。要实现精准匹配（精确匹配）查询的方法，以下是一些重要的知识点和实现方法：
 
 ---
