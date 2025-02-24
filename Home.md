@@ -3,6 +3,7 @@
 
 
 ## 列表
+* [大模型](big-model/index)
 * [效率工具](dev-tools/index)
 * [配置文件](config/index)
 * [前端](front/index)
