@@ -17,3 +17,7 @@ super [ancestors](ancestors) <br>
 
 [Hash](hash/index)
 
+<br><br><br>
+### 容易出错的点
+
+[默认参数是共享的，修改后有严重附效果](default-params-share-problem/index)
