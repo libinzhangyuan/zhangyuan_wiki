@@ -1,1 +1,1 @@
-gollum -p 4569 &
+nohup gollum -p 4569 &
