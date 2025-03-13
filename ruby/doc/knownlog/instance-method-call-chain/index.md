@@ -1,5 +1,6 @@
+[返回](/ruby/doc/knownlog/index)
 
-
+### 实例函数的调用链
 
 [这张图片](https://nbd-luyan-1252627319.cos.ap-shanghai.myqcloud.com/nbd-console/6707545ada6f635d92f3621c4b8cf434.jpg)
 
