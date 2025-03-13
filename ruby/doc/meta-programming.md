@@ -1,5 +1,5 @@
 [原编程书籍介绍ruby-china](https://ruby-china.org/wiki/ruby-meta)<br>
-[Ruby元编程技巧 一篇总汇文章 需要翻墙](https://jameszhan.github.io/2014/09/01/ruby-metagramming.html)<br><br>
+[Ruby元编程技巧 一篇总汇文章 摘自ruby元编程原书附录 需要翻墙](https://jameszhan.github.io/2014/09/01/ruby-metagramming.html)<br><br>
 [ [新手指南] Ruby 的 Block 以及 Proc.new 与 Lambda 的区别](https://ruby-china.org/topics/25197)<br>
 [ruby ：为什么要搞出block，proc，lambda这三个玩意](https://zhuanlan.zhihu.com/p/89694746)<br><br>
 [总结：Ruby中的@ % # $等各种千奇百怪的符号的含义等](https://blog.csdn.net/yy19890521/article/details/91376727)<br>
