@@ -12,6 +12,7 @@ super [ancestors](ancestors) <br>
 [singleton_class](https://ruby-china.org/topics/35350)<br>
 [proc, lambda,block,method,](block/index)<br>
 [类变量，类实例变量，实例变量。 （推荐使用类实例变量代替类变量）](/ruby/doc/leishili-leibianniang)<br>
+[关键字参数  及其捕获所有 **options](https://www.javascriptcn.com/interview-ruby/677e7f145a87932843785bbf.html)<br>
 
 <br><br><br>
 
