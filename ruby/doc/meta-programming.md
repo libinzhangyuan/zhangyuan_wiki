@@ -82,3 +82,29 @@ is_a? kinde_of?
 class_variable_get class_variable_set
 
 ```
+
+
+### 各种查寻
+```
+str.singleton_class  获取对象的单例类
+str.singleton_class.instance_methods str.singleton_class.instance_methods(false)  获取对象的单例类中定义的方法，即下面这样定义的
+def str.foo
+  'foo'
+end
+
+# 查实例方法
+str.methods
+str.methods(false) 不要继承或include来的
+
+# 查include了哪些module
+Point.included_modules
+# 查时候有include某个module
+Point.include?(Helper)
+
+# 查继承关系+include
+Point.ancestors
+# 只要继承的
+Point.ancestors - Point.included_modules
+
+
+```
