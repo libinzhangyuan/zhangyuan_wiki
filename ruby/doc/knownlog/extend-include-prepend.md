@@ -3,7 +3,7 @@
 
 [分享 Ruby 中 require,load,autoload,extend,include,prepend 的区别](https://ruby-china.org/topics/35350)
 
-
+[Ruby 中 prepend 的作用是什么？](https://www.javascriptcn.com/interview-ruby/677e7f295a87932843788e5d.html)
 
 ```
 
