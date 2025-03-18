@@ -17,7 +17,7 @@
 
 
 ```
-# 下面这个定义的是类函数
+# 下面这个定义的是instance函数
 class Example
   def initialize(test='hey')
     define_singleton_method :say_hello, lambda { test }
