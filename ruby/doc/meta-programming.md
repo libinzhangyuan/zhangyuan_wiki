@@ -7,6 +7,8 @@
 [append_features  included 差别 (应该不容易用到)](doc/append-features-included/index)<br>
 [cattr_accessor 和 class_attribute的差别](doc/cattr-accessor-class-attribute/index)<br>
 [mattr_accessor cattr_accessor 和 class_attribute的差别](doc/cattr--cattr-accessor-class-attribute/index)<br>
+[反射和内省](inspect/index)
+
 <br><br><br>
 
 * 函数定义
