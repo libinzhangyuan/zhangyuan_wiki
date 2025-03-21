@@ -16,6 +16,21 @@ puts person.is_a?(Person) # 输出 "true"
 puts person.kind_of?(Person) # 输出 "true"
 ```
 
+```
+# 查include了哪些module
+Point.included_modules
+# 查时候有include某个module
+Point.include?(Helper)
+
+```
+
+```
+# 获取对象的单例类
+
+str.singleton_class
+Article.singleton_class
+
+```
 
 ```
 # 获取类的方法列表
