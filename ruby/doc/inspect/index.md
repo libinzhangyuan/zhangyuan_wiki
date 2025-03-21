@@ -119,6 +119,14 @@ puts Person.constants.inspect # 输出 [:AGE_LIMIT]
 ```
 
 ```
+# 类或模块中所有类变量的方法
+Article.class_variables(inherit = true)
 
+puts Child.class_variables.inspect
+    => [:@@parent_var, :@@child_var]
+
+# 访问和设置类变量
+class_variable_get(:@@variable_name)
+class_variable_set(:@@variable_name, value)
 ```
 
