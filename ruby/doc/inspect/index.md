@@ -17,10 +17,23 @@ puts person.kind_of?(Person) # 输出 "true"
 ```
 
 ```
+# 获取类的继承关系 和 祖先链
+class Person
+end
+class Student < Person
+end
+puts Student.superclass.name # 输出 "Person"
+puts Student.ancestors.map(&:name).inspect
+
 # 查include了哪些module
 Point.included_modules
-# 查时候有include某个module
+# 查是否include某个module
 Point.include?(Helper)
+
+# 查继承关系+include
+Point.ancestors
+# 只要继承的
+Point.ancestors - Point.included_modules
 
 ```
 
@@ -106,15 +119,6 @@ puts Person.constants.inspect # 输出 [:AGE_LIMIT]
 ```
 
 ```
-# 获取类的继承关系 和 祖先链
-class Person
-end
 
-class Student < Person
-end
-
-puts Student.superclass.name # 输出 "Person"
-
-puts Student.ancestors.map(&:name).inspect
 ```
 
