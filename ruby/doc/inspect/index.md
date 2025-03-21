@@ -1,7 +1,5 @@
 [返回](/ruby/doc/meta-programming)
 
-[下面的大部分来自本网页： Ruby 反射和内省](https://www.javascriptcn.com/ruby/67500d94a7f4f47d1aa33051.html)
-
 ```
 # 获取类名
 person = Person.new
