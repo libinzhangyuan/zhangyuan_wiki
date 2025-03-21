@@ -3,7 +3,9 @@
 # ruby 知识图谱
 
 
+* [网页 Ruby元编程技巧 摘自ruby元编程原书附录](https://jameszhan.github.io/2014/09/01/ruby-metagramming.html)
 * [原编程](/ruby/doc/meta-programming)
+
 
 
 
