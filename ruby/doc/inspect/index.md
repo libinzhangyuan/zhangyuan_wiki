@@ -12,8 +12,10 @@ puts person.class.name # 输出 "Person"
 ```
 # 检查是否是某个类的实例
 person = Person.new
-puts person.is_a?(Person) # 输出 "true"
-puts person.kind_of?(Person) # 输出 "true"
+puts person.is_a?(Person) # 输出 "true". 会考虑继承
+puts person.kind_of?(Person) # 和 is_a? 的功能完全相同
+
+instance_of? 方法用来判断对象是否是一个类的实例，会忽略继承。
 ```
 
 ```
