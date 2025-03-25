@@ -3,7 +3,7 @@
 [ [新手指南] Ruby 的 Block 以及 Proc.new 与 Lambda 的区别](https://ruby-china.org/topics/25197)<br>
 [ruby ：为什么要搞出block，proc，lambda这三个玩意](https://zhuanlan.zhihu.com/p/89694746)<br><br>
 [总结：Ruby中的@ % # $等各种千奇百怪的符号的含义等](https://blog.csdn.net/yy19890521/article/details/91376727)<br>
-[Ruby instance_exec 和 instance_eval 有啥区别, class_exec 和 class_eval](https://ruby-china.org/topics/2286)<br>
+[Ruby instance_exec 和 instance_eval 有啥区别, class_exec 和 class_eval](class-eval-instance-eval/index)<br>
 [append_features  included 差别 (应该不容易用到)](doc/append-features-included/index)<br>
 [cattr_accessor 和 class_attribute的差别](doc/cattr-accessor-class-attribute/index)<br>
 [mattr_accessor cattr_accessor 和 class_attribute的差别](doc/cattr--cattr-accessor-class-attribute/index)<br>
