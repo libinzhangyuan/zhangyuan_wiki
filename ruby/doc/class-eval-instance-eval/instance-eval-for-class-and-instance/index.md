@@ -1,88 +1,137 @@
 [返回](/ruby/doc/class-eval-instance-eval/index)
 
-# Ruby `instance_eval` 对类和实例的区别
 
-`instance_eval` 是 Ruby 中一个强大的元编程方法，它的行为会根据调用对象是类还是实例而有所不同。
+# Ruby 中的 class_eval 和 instance_eval 全面介绍
 
-## 对实例使用 `instance_eval`
+在 Ruby 元编程中，`class_eval` 和 `instance_eval` 是两个核心方法，它们的行为会根据接收者的类型（普通对象或类/模块）而有所不同。
 
-当对**实例对象**调用 `instance_eval` 时：
+## 1. class_eval / module_eval
+
+### 基本用法
+`class_eval` 在类的上下文中执行代码块，主要用于定义实例方法。
 
 ```ruby
-class Person
-  def initialize(name)
-    @name = name
+class MyClass; end
+
+MyClass.class_eval do
+  def instance_method
+    puts "New instance method"
   end
 end
 
-p = Person.new("Alice")
-p.instance_eval do
-  puts @name          # 可以访问实例变量 => "Alice"
-  def greet           # 定义的是单例方法（只对这个实例有效）
-    "Hello, #{@name}!"
+MyClass.new.instance_method # => "New instance method"
+```
+
+### 特点
+- 只能用于类或模块
+- 在类的上下文中执行
+- 可以定义实例方法
+- 可以访问类的实例变量
+
+## 2. instance_eval 的两种使用场景
+
+`instance_eval` 的行为会根据接收者是普通对象还是类/模块而有所不同。
+
+### 2.1 对普通对象使用 instance_eval
+
+```ruby
+obj = Object.new
+
+obj.instance_eval do
+  def singleton_method
+    puts "Method only for this object"
   end
+  
+  @var = "instance variable"
 end
 
-puts p.greet         # => "Hello, Alice!"
-p2 = Person.new("Bob")
-# p2.greet           # 会报错，因为greet方法只定义在p上
+obj.singleton_method # => "Method only for this object"
 ```
 
 特点：
-1. 块中的 `self` 是接收者实例
-2. 可以访问实例的实例变量
-3. 定义的方法会成为该实例的单例方法
+- 在对象的单例类中执行
+- 可以定义单例方法（仅该对象可用）
+- 可以访问对象的实例变量
 
-## 对类使用 `instance_eval`
-
-当对**类对象**调用 `instance_eval` 时：
+### 2.2 对类/模块使用 instance_eval
 
 ```ruby
-class Person
-end
+class MyClass; end
 
-Person.instance_eval do
-  def species        # 定义的是类的单例方法（类方法）
-    "Homo sapiens"
+MyClass.instance_eval do
+  def class_method
+    puts "Class method added"
   end
 end
 
-puts Person.species  # => "Homo sapiens"
+MyClass.class_method # => "Class method added"
 ```
 
 特点：
-1. 块中的 `self` 是接收者类对象
-2. 定义的方法会成为该类的单例方法（即类方法）
-3. 不能访问实例变量（因为是在类级别）
+- 在类的单例类中执行
+- 可以定义类方法（相当于 `def self.class_method`）
+- 可以访问类的实例变量（注意：是类的实例变量，不是类的实例的实例变量）
 
-## 关键区别总结
-
-```
-
-| 特性                | 对实例使用 instance_eval          | 对类使用 instance_eval            |
-|---------------------|----------------------------------|-----------------------------------|
-| `self` 指向          | 该实例对象                        | 该类对象                          |
-| 定义的方法类型       | 实例的单例方法                    | 类的单例方法（类方法）            |
-| 可访问的变量         | 实例变量                          | 类变量（@@）                      |
-| 常用场景             | 为特定实例添加方法                | 定义类方法                        |
+## 3. 关键区别对比
 
 ```
 
-## 与 `class_eval` 的对比
+| 场景                  | class_eval                      | instance_eval (对类)           | instance_eval (对对象)         |
+|----------------------|--------------------------------|-------------------------------|-------------------------------|
+| 接收者                | 类/模块                        | 类/模块                       | 任何对象                      |
+| 执行上下文            | 类的内部                       | 类的单例类内部                 | 对象的单例类内部               |
+| 定义的方法类型        | 实例方法                       | 类方法                        | 单例方法                      |
+| 能否访问实例变量      | 能（类的实例变量）              | 能（类的实例变量）             | 能（对象的实例变量）           |
+| 别名                 | module_eval                    | 无                            | 无                            |
 
-对于类对象，还有一个类似的方法 `class_eval`（别名 `module_eval`）：
+```
+
+## 4. 实际应用示例
+
+### 动态添加类方法
 
 ```ruby
-Person.class_eval do
-  def greet          # 定义的是实例方法
-    "Hello!"
+module MyModule
+end
+
+MyModule.instance_eval do
+  def module_level_method
+    "Available on MyModule itself"
   end
 end
 
-p = Person.new
-p.greet             # => "Hello!"
+MyModule.module_level_method # => "Available on MyModule itself"
 ```
 
-`class_eval` 会在类的上下文中执行，定义的是实例方法，而 `instance_eval` 定义的是类方法。
+### DSL 实现示例
 
-选择哪个方法取决于你想定义什么类型的方法以及你当前的操作对象是什么。
+```ruby
+class Configuration
+  def self.setup(&block)
+    new.instance_eval(&block)
+  end
+  
+  def option(name, value)
+    define_singleton_method(name) { value }
+  end
+end
+
+config = Configuration.setup do
+  option :timeout, 30
+  option :verbose, true
+end
+
+config.timeout # => 30
+config.verbose # => true
+```
+
+## 5. 注意事项
+
+```
+1. **作用域变化**：这些方法会改变当前 `self` 的指向
+2. **性能考虑**：动态定义方法比静态定义有额外开销
+3. **可读性**：过度使用会使代码难以理解
+4. **类变量访问**：`class_eval` 可以访问类变量（`@@var`），而 `instance_eval` 不能
+```
+
+理解这些方法的细微差别对于 Ruby 元编程至关重要，特别是在框架开发和 DSL 设计中。
