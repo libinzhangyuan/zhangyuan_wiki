@@ -116,6 +116,9 @@ class Person
 end
 
 puts Person.constants.inspect # 输出 [:AGE_LIMIT]
+
+# 获取当前程序中的所有顶级产量
+Module.constants
 ```
 
 ```
