@@ -89,6 +89,12 @@ puts Person.instance_method(:say_hello).parameters.inspect # 输出 "[[:req, :to
 ```
 
 ```
+# 获取方法时候附带有块
+block_given?
+
+```
+
+```
 # 获取对象的属性
 
 class Person
@@ -137,3 +143,9 @@ class_variable_get(:@@variable_name)
 class_variable_set(:@@variable_name, value)
 ```
 
+```
+获取当前变量
+local_variables
+
+
+```
