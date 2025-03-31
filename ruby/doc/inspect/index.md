@@ -144,7 +144,7 @@ class_variable_set(:@@variable_name, value)
 ```
 
 ```
-获取当前变量
+获取当前局部变量列表
 local_variables
 
 
