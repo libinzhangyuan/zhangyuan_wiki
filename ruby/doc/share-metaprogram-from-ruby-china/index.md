@@ -1,5 +1,4 @@
 
-
 <p>分享些最近在看的关于 ruby 元编程文章
 <strong>Ruby 里的元编程</strong>：<a href="http://lifegoo.pluskid.org/?p=46" rel="nofollow" target="_blank">http://lifegoo.pluskid.org/?p=46</a>
 <br>
@@ -33,4 +32,11 @@
 
 <strong>Ruby 元编程（六）元编程实战</strong>
 <a href="http://deathking.is-programmer.com/posts/29432.html" rel="nofollow" target="_blank">http://deathking.is-programmer.com/posts/29432.html</a></p>
+<br>
+
+<p><strong>Design Beautiful Ruby Api</strong>
+<a href="http://www.slideshare.net/fullscreen/ihower/designing-ruby-apis/" rel="nofollow" target="_blank">http://www.slideshare.net/fullscreen/ihower/designing-ruby-apis/</a>  </p>
+<br>
+
+经典 metaprogramming-in-ruby-its-all-about-the-self： <a href="http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/">http://yehudakatz.com/2009/11/15/metaprogramming-in-ruby-its-all-about-the-self/</a>
 <br>
