@@ -1,6 +1,7 @@
+[返回](/ruby/doc/knownlog/index)
 
 
-### 安全
+### ruby 安全
 
 在 Ruby 中，随着 `taint` 和 `$SAFE` 机制的弃用和移除，"更现代的安全实践" 主要指的是以下几种安全编程方法和技术：
 
