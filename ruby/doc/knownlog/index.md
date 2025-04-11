@@ -18,6 +18,7 @@ super [ancestors](ancestors) <br>
 [类变量，类实例变量，实例变量。 （推荐使用类实例变量代替类变量）](/ruby/doc/leishili-leibianniang)<br>
 [关键字参数  及其捕获所有 **options](https://www.javascriptcn.com/interview-ruby/677e7f145a87932843785bbf.html)<br>
 [实例函数的调用链](instance-method-call-chain/index)<br>
+[Ruby 中 dup 和 clone 的区别](dup-clone-diff/index)<br>
 <br>
 
 <br><br><br>
