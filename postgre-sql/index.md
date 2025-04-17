@@ -6,6 +6,8 @@
 psql -h localhost -p 5432 -U zhangyuan -d postgres -W
 16+
 
+zhangyuan 可用的 schema:  my_schema
+
 管理员 postgre   16+
 
 
