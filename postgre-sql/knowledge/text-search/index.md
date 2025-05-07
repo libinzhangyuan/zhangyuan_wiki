@@ -66,8 +66,10 @@ SELECT title FROM articles WHERE content_search @@ to_tsquery('chinese', '开源
 ### 权重分配
 ```sql
 SELECT title, 
-       ts_rank_cd(to_tsvector('chinese', title || ' ' || content), 
-               to_tsquery('chinese', '数据库')) AS rank
+       ts_rank_cd(
+          to_tsvector('chinese', title || ' ' || content),
+          to_tsquery('chinese', '数据库')
+       ) AS rank
 FROM articles
 ORDER BY rank DESC;
 ```
