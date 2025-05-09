@@ -13,3 +13,4 @@
 
 ### 全文搜索
 * [PostgreSQL 全文搜索类型详解](text-search/index)
+* [全文搜索排名函数 ts_rank ts_rank_cd](ts-rank/index)
