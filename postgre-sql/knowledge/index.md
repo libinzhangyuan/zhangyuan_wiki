@@ -14,3 +14,6 @@
 ### 全文搜索
 * [PostgreSQL 全文搜索类型详解](text-search/index)
 * [全文搜索排名函数 ts_rank ts_rank_cd](ts-rank/index)
+* [全文搜索向量更新SQL详解](/postgre-sql/knowledge/ts-rank/setweight/index)
+* [全文搜索归一化选项详解](/postgre-sql/knowledge/ts-rank/guiyihua/index)
+* [全文搜索排名值预计算方案](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/index)
