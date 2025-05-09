@@ -19,10 +19,11 @@ ALTER TABLE documents ADD COLUMN search_rank float4;
 UPDATE documents 
 SET search_rank = ts_rank(tsv, to_tsquery('common_query_terms_here'));
 
--- 或者使用[通用查询](general-search/index)
+-- 或者使用通用查询
 UPDATE documents 
 SET search_rank = ts_rank(tsv, to_tsquery('english', 'a | the | and | or'));
 ```
+[通用查询](general-search/index)
 
 ### 3. 使用触发器自动维护
 
