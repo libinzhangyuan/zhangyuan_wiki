@@ -2,6 +2,7 @@
 * [array](array/index)
 * [generated-column](generated-column/index)
 * [TSVECTOR(Text Search Vector)](TSVECTOR/index)
+* [bit string](bit-string/index)
 
 
 
