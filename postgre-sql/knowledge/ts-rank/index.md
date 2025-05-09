@@ -108,7 +108,7 @@ UPDATE documents SET tsv =
     setweight(to_tsvector('english', coalesce(title,'')), 'A') || 
     setweight(to_tsvector('english', coalesce(body,'')), 'B');
 ```
-
+[shangmian zhege sql jieshao (setweight desc)](setweight/index)<br>
 权重分配影响排名计算，高权重的匹配会获得更高的排名分数。
 
 ## 4. [归一化选项详解](guiyihua/index)
