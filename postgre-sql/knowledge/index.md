@@ -17,3 +17,5 @@
 * [全文搜索向量更新SQL详解](/postgre-sql/knowledge/ts-rank/setweight/index)
 * [全文搜索归一化选项详解](/postgre-sql/knowledge/ts-rank/guiyihua/index)
 * [全文搜索排名值预计算方案](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/index)
+* [全文搜索排名值预计算方案-通用查寻](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/general-search/index)
+* [全文搜索排名值预计算方案-通用查寻 - 在SELECT查询中使用新闻网站通用排名](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/general-search/general-rank-by-news-website/index)
