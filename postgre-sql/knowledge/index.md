@@ -9,6 +9,7 @@
 
 ### 索引
 * [通用倒排索引 GIN(Generalized Inverted Index)](generalized-inverted-index/index)
+* [GIST 索引(Generalized Search Tree)](gist/index)
 * [TSVECTOR(Text Search Vector)](TSVECTOR/index)
 
 
