@@ -19,3 +19,4 @@
 * [全文搜索排名值预计算方案](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/index)
 * [全文搜索排名值预计算方案-通用查寻](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/general-search/index)
 * [全文搜索排名值预计算方案-通用查寻 - 在SELECT查询中使用新闻网站通用排名](/postgre-sql/knowledge/ts-rank/recalc-rand-and-store/general-search/general-rank-by-news-website/index)
+* [postgresql 的全文搜索 缺点是什么？](text-search/defect/index)
