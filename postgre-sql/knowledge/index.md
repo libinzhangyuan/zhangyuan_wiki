@@ -15,6 +15,7 @@
 * [GIST 索引(Generalized Search Tree)](gist/index)
 * [TSVECTOR(Text Search Vector)](TSVECTOR/index)
 * [外键约束 (Foreign Key Constraints)](forengn-key-constraints/index)
+* [函数索引(Functional Index)](functional-index/index)
 
 
 
