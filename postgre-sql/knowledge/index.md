@@ -9,6 +9,7 @@
 
 ### 索引
 * [原理-堆和物理位置标识符(heaps and CTID)](heap-ctid/index)
+* [原理-B-tree 索引](b-tree-index/index)
 * [排除约束(EXCLUSION 约束)](exclusion-constraints/index)
 * [通用倒排索引 GIN(Generalized Inverted Index)](generalized-inverted-index/index)
 * [GIST 索引(Generalized Search Tree)](gist/index)
