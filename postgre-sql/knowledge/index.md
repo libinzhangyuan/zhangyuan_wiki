@@ -1,3 +1,6 @@
+### 命令
+[explain，及其所有选项](explain/index)
+
 ### 字段介绍
 * [array](array/index)
 * [generated-column](generated-column/index)
