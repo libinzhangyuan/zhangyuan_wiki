@@ -35,3 +35,5 @@
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
+* [原理-堆和物理位置标识符(heaps and CTID)](heap-ctid/index)
+* [原理-B-tree 索引](b-tree-index/index)
