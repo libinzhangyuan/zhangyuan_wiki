@@ -1,5 +1,5 @@
 ### 命令
-[explain，及其所有选项](explain/index)
+* [explain，及其所有选项](explain/index)
 
 ### 字段介绍
 * [array](array/index)
@@ -16,7 +16,6 @@
 * [排除约束(EXCLUSION 约束)](exclusion-constraints/index)
 * [通用倒排索引 GIN(Generalized Inverted Index)](generalized-inverted-index/index)
 * [GIST 索引(Generalized Search Tree)](gist/index)
-* [TSVECTOR(Text Search Vector)](TSVECTOR/index)
 * [外键约束 (Foreign Key Constraints)](forengn-key-constraints/index)
 * [函数索引(Functional Index)](functional-index/index)
 
