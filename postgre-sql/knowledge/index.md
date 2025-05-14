@@ -1,5 +1,6 @@
 ### 命令
 * [explain，及其所有选项](explain/index)
+* [REINDEX 和 VACUUM](reindex-and-vacuum/index)
 
 ### 字段介绍
 * [array](array/index)
