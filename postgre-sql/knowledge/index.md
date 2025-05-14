@@ -15,6 +15,7 @@
 * [原理-堆和物理位置标识符(heaps and CTID)](heap-ctid/index)
 * [原理-B-tree 索引](b-tree-index/index)
 * [原理-主键(Primary Keys)和二级索引(Secondary Indexes)](primary-key-and-secondary-indexes/index)
+* [原理-主键类型(Primary Keys types)](primary-keys-types/index)
 <br><br>
 * [排除约束(EXCLUSION 约束)](exclusion-constraints/index)
 * [通用倒排索引 GIN(Generalized Inverted Index)](generalized-inverted-index/index)
