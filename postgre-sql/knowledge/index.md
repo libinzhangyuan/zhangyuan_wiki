@@ -1,6 +1,6 @@
 ### 命令
 * [explain，及其所有选项](explain/index)
-* [REINDEX 和 VACUUM](reindex-and-vacuum/index)
+* [pg_repack, REINDEX 和 VACUUM](reindex-and-vacuum-pg-repack/index)
 
 ### 字段介绍
 * [array](array/index)
