@@ -3,12 +3,13 @@
 * [pg_repack, REINDEX 和 VACUUM](reindex-and-vacuum-pg-repack/index)
 
 ### 字段介绍
+* [自增主键 ID (auto-incrementing primary key)](auto-incrementing-primary-key/index)
+* [uuid](uuid/index)<br><br>
 * [array](array/index)
 * [generated-column](generated-column/index)
 * [TSVECTOR(Text Search Vector)](TSVECTOR/index)
 * [bit string](bit-string/index)
 * [复合类型(Composite Types)](composite-types/index)
-* [uuid](uuid/index)
 
 
 
