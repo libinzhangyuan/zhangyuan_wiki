@@ -41,6 +41,8 @@
 * [距离操作符，用于指定两个搜索词（或短语）之间的 相邻关系和距离 <-> or <3>](text-search/word-distance/index)
 * [postgresql 的全文搜索 缺点是什么？](text-search/defect/index)
 
+### 查寻
+* [cross, inner, outer join](join/index)
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
