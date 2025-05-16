@@ -43,6 +43,9 @@
 
 ### 查寻
 * [cross, inner, outer join](join/index)
+* [lateral join](lateral-join/index)
+
+
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
