@@ -11,6 +11,9 @@
 
 ```sql
 SELECT * FROM 表1 CROSS JOIN 表2;
+
+
+SELECT * FROM 表1, 表2;
 ```
 
 **特点**：
