@@ -43,6 +43,7 @@
 
 ### 查寻
 * [cross, inner, outer join](join/index)
+* [子查寻 subquery](subquery/index)
 * [lateral join](lateral-join/index)
 * [rows from](rows-from/index)
 
