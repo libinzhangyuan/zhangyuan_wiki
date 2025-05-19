@@ -46,8 +46,9 @@
 * [子查寻 subquery](subquery/index)
 * [lateral join](lateral-join/index)
 * [rows from](rows-from/index)
-* [Combining Query（组合查询） (union, union all, intersect, except, )](combining-query/index)
-
+* [Combining Query（组合查询） (union, union all, intersect, except)](combining-query/index)
+* [子查询消除（Subquery Elimination）](subquery-elimination/index)
+* [SEMI JOIN, anti join](semi-join-anti-join/index)
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
