@@ -49,6 +49,9 @@
 * [Combining Query（组合查询） (union, union all, intersect, except)](combining-query/index)
 * [子查询消除（Subquery Elimination）](subquery-elimination/index)
 * [SEMI JOIN, anti join](semi-join-anti-join/index)
+* [集合生成函数 (Set Generating Functions)](set-generating-function/index)
+* [连接索引(Indexing Joins)](indexing-join/index)
+
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
