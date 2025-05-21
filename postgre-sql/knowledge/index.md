@@ -52,6 +52,8 @@
 * [集合生成函数 (Set Generating Functions)](set-generating-function/index)
 * [连接索引(Indexing Joins)](indexing-join/index)
 * [GROUP BY 和 GROUPING SETS](grouping-set/index) &nbsp; &nbsp; &nbsp; [ROLLUP](rollup/index) &nbsp; &nbsp;  &nbsp; [CUBE](cube/index)
+* [聚合函数](agg-func/index)
+
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
