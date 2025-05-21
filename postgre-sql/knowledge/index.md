@@ -52,6 +52,7 @@
 * [集合生成函数 (Set Generating Functions)](set-generating-function/index)
 * [连接索引(Indexing Joins)](indexing-join/index)
 * [GROUP BY 和 GROUPING SETS](grouping-set/index) &nbsp; &nbsp; &nbsp; [ROLLUP](rollup/index) &nbsp; &nbsp;  &nbsp; [CUBE](cube/index)
+* [EXISTS 与 IN](exists-and-in/index)
 * [聚合函数](agg-func/index)
 
 
