@@ -11,7 +11,7 @@
 * [TSVECTOR(Text Search Vector)](TSVECTOR/index)
 * [bit string](bit-string/index)
 * [复合类型(Composite Types)](composite-types/index)
-
+* [hstore](hstore/index)
 
 
 ### 索引
