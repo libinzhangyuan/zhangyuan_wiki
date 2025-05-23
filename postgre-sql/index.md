@@ -16,3 +16,4 @@ zhangyuan 可用的 schema:  my_schema
 [PostgreSQL 15.7 手册](http://www.postgres.cn/docs/15/index.html)
 
 * [知识图谱](knowledge/index)
+* [rails结合postgresql](rails-with-postgre/index)
