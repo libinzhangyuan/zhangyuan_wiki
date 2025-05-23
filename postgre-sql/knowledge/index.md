@@ -5,6 +5,7 @@
 ### 字段介绍
 * [自增主键 ID (auto-incrementing primary key)](auto-incrementing-primary-key/index)
 * [uuid](uuid/index)<br><br>
+* [enum](enum/index)
 * [BYTEA](bytea/index)
 * [array](array/index) &nbsp;&nbsp; [cardinality 和 array_length](cardinality-and-array-length/index)
 * [generated-column](generated-column/index)
