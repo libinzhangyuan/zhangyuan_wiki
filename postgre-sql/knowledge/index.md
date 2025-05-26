@@ -60,6 +60,7 @@
 * [窗口函数(Window Function)](window-function/index)
 * [公共表表达式(CTE - Common Table Expression)](cte/index)
 * [CTE with window function](cte-with-window-function/index)
+* [递归 CTE](recursive-cte/index)
 * [null的处理](manage-null/index)
 
 
