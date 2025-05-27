@@ -28,6 +28,7 @@
 * [通用倒排索引 GIN(Generalized Inverted Index)](generalized-inverted-index/index)
 * [GIST 索引(Generalized Search Tree)](gist/index)
 * [外键约束 (Foreign Key Constraints)](forengn-key-constraints/index)
+* [可延迟约束(Deferrable Foreign Keys)](deferrable-foreign-key/index)
 * [函数索引(Functional Index)](functional-index/index)
 * [部分索引（Partial Index）](partial-index/index)
 * [实现"允许NULL值但NULL值必须唯一"的约束](uniq-null-only-one/index)
