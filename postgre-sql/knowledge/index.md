@@ -69,7 +69,7 @@
 * [null的处理](manage-null/index)
 * [行值语法(Row Value Syntax)](row-value-syntax/index)
 * [视图view](view/index)
-
+* [物化视图(Materialized View)](materialized-view/index)
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
