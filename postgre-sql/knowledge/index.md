@@ -3,6 +3,7 @@
 ### 命令
 * [explain，及其所有选项](explain/index)
 * [pg_repack, REINDEX 和 VACUUM](reindex-and-vacuum-pg-repack/index)
+* [设置搜索路径 (默认schema)](search-path/index)
 
 ### 字段介绍
 * [自增主键 ID (auto-incrementing primary key)](auto-incrementing-primary-key/index)
