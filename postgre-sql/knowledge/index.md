@@ -65,7 +65,8 @@
 * [CTE with window function](cte-with-window-function/index)
 * [递归CTE (recursive cte)](recursive-cte/index)
 * [null的处理](manage-null/index)
-
+* [行值语法(Row Value Syntax)](row-value-syntax/index)
+* [视图view](view/index)
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
