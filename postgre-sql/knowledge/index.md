@@ -49,6 +49,7 @@
 * [postgresql 的全文搜索 缺点是什么？](text-search/defect/index)
 
 ### 查寻
+* [各种函数](function/index)
 * [cross, inner, outer join](join/index)
 * [子查寻 subquery](subquery/index)
 * [lateral join](lateral-join/index)
@@ -68,6 +69,7 @@
 * [null的处理](manage-null/index)
 * [行值语法(Row Value Syntax)](row-value-syntax/index)
 * [视图view](view/index)
+
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
