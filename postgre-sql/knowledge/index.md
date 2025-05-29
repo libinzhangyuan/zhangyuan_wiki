@@ -51,7 +51,8 @@
 ### 查寻
 * [各种函数](function/index)
 * [row_number](row-number/index)
-
+* [row_number vs rank vs dense_rank](row-number-rank-dense-rank/index)
+<br><br><br>
 * [cross, inner, outer join](join/index)
 * [子查寻 subquery](subquery/index)
 * [lateral join](lateral-join/index)
