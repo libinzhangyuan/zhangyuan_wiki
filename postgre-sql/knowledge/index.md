@@ -52,7 +52,6 @@
 * [各种函数](function/index)
 * [row_number](row-number/index)
 * [row_number vs rank vs dense_rank](row-number-rank-dense-rank/index)
-* [upsert: INSERT ... ON CONFLICT](upsert/index)
 <br><br>
 * [cross, inner, outer join](join/index)
 * [子查寻 subquery](subquery/index)
@@ -74,6 +73,11 @@
 * [行值语法(Row Value Syntax)](row-value-syntax/index)
 * [视图view](view/index)
 * [物化视图(Materialized View)](materialized-view/index)
+
+### 操作
+* [upsert: INSERT ... ON CONFLICT](upsert/index)
+* [returning](returning/index)
+
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
