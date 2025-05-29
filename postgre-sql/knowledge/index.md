@@ -77,7 +77,7 @@
 ### 操作
 * [upsert: INSERT ... ON CONFLICT](upsert/index)
 * [returning](returning/index)
-
+* [自动生成列generated always](generated/index)
 
 ### 原理
 * [WAL (Write-Ahead Logging，预写式日志)](wal/index)
