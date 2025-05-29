@@ -1,15 +1,15 @@
-/doris/knowledge/index
+[返回](/doris/knowledge/index)
 
 # Doris 数据库中的 Partition（分区）介绍
 
 Partition 是 Apache Doris 中非常重要的数据组织方式，它可以帮助提高查询效率、方便数据管理，并优化数据生命周期管理。
 
 ## 基本概念
-
+```
 Partition（分区）是指按照一定的规则将表数据划分为不同的部分，每个分区可以独立管理。Doris 支持两种分区方式：
 1. **Range Partition**：按照范围分区（如按日期、数值范围）
 2. **List Partition**：按照枚举值分区（如按地区、类别）
-
+```
 ## 分区的作用
 
 1. **查询优化**：查询时可以只扫描相关分区，提高查询效率
