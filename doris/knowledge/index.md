@@ -1,7 +1,7 @@
 [返回](/doris/index)
 
 * [Partition（分区）](partition/index) &nbsp;&nbsp;&nbsp; [Dynamic Partitioning(动态分区)](dynamic-partitioning/index)
-
+* [Bucket(分桶)](bucket/index)
 
 
 ```
