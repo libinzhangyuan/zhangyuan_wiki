@@ -3,6 +3,7 @@
 * [Partition（分区）](partition/index) &nbsp;&nbsp;&nbsp; [Dynamic Partitioning(动态分区)](dynamic-partitioning/index)
 * [Bucket(分桶)](bucket/index)
 * [tablet(数据分片)](tablet/index)
+* [Partition、Bucket 和 Tablet 详解](partition-bucket-tablet/index)
 
 
 ```
