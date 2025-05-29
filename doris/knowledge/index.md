@@ -1,5 +1,9 @@
 [返回](/doris/index)
 
+* [Partition（分区）](partition/index)
+
+
+
 ```
 explain graph
 
@@ -42,3 +46,7 @@ shuffle join &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 bitmap_union(to_bitmap(user_id))
+
+
+
+
