@@ -73,6 +73,7 @@
 * [行值语法(Row Value Syntax)](row-value-syntax/index)
 * [视图view](view/index)
 * [物化视图(Materialized View)](materialized-view/index)
+* [ilike](ilike/index)
 
 ### 操作
 * [upsert: INSERT ... ON CONFLICT](upsert/index)
