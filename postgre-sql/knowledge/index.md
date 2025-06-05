@@ -24,7 +24,7 @@
 * [复合类型(Composite Types)](composite-types/index)
 * [hstore](hstore/index)
 * [json and jsonb](json-jsonb/index)
-
+* [类型转换方法对比：CAST vs TRY_CAST vs CASE 表达式](cast-trycast-case/index)
 
 ### 索引
 * [原理-堆和物理位置标识符(heaps and CTID)](heap-ctid/index)
