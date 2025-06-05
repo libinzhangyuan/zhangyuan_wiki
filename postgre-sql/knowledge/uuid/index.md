@@ -1,5 +1,9 @@
 [返回](/postgre-sql/knowledge/index)
 
+# 提示，请用uuidv7 - 张远
+
+
+
 # PostgreSQL 中的 UUID 类型
 
 UUID (Universally Unique Identifier) 是 PostgreSQL 中用于存储全局唯一标识符的数据类型。UUID 是一个 128 位的值，通常表示为 32 个十六进制数字，由连字符分隔为五组，形式如 `123e4567-e89b-12d3-a456-426614174000`。
