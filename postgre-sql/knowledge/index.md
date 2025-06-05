@@ -1,5 +1,8 @@
 [返回](/postgre-sql/index)
 
+### 总体
+* [数据库(Database)与模式(Schema)对比](database-schema/index)
+
 ### 命令
 * [explain，及其所有选项](explain/index)
 * [pg_repack, REINDEX 和 VACUUM](reindex-and-vacuum-pg-repack/index)
