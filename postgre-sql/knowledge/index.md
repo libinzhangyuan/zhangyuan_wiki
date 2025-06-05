@@ -2,6 +2,7 @@
 
 ### 总体
 * [数据库(Database)与模式(Schema)对比](database-schema/index)
+* [外部数据包装器(FDW)](fdw/index)
 
 ### 命令
 * [explain，及其所有选项](explain/index)
