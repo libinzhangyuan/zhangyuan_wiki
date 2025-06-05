@@ -76,6 +76,8 @@
 * [物化视图(Materialized View)](materialized-view/index)
 * [ilike](ilike/index) &nbsp;&nbsp;&nbsp; [citext](citext/index)
 * [JSON 操作详解](json-operator/index)
+* [JSON索引](json-index/index)
+
 
 ### 操作
 * [upsert: INSERT ... ON CONFLICT](upsert/index)
