@@ -78,6 +78,8 @@
 * [JSON 操作详解](json-operator/index)
 * [JSON索引](json-index/index)
 * [JSON- 普通GIN索引 vs jsonb_path_ops-GIN索引 vs GIN 路径索引](json-index-jsonb-path-ops-gin-vs-gin-path-index/index)
+* [JSON B-tree 索引](json-btree-index/index)
+
 
 ### 操作
 * [upsert: INSERT ... ON CONFLICT](upsert/index)
