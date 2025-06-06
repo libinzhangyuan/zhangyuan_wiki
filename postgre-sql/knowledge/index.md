@@ -82,11 +82,12 @@
 * [行值语法(Row Value Syntax)](row-value-syntax/index)
 * [视图view](view/index)
 * [物化视图(Materialized View)](materialized-view/index)
-* [ilike](ilike/index) &nbsp;&nbsp;&nbsp; [citext](citext/index)
+* [ilike](ilike/index) &nbsp;&nbsp;&nbsp; [citext](citext/index)<br><br>
 * [JSON 操作详解](json-operator/index)
 * [JSON索引](json-index/index)
 * [JSON- 普通GIN索引 vs jsonb_path_ops-GIN索引 vs GIN 路径索引](json-index-jsonb-path-ops-gin-vs-gin-path-index/index)
-* [JSON B-tree 索引](json-btree-index/index)
+* [JSON B-tree 索引](json-btree-index/index)<br><br>
+* [向量相似性搜索(pgvector)](pgvector/index)
 
 
 ### 操作
