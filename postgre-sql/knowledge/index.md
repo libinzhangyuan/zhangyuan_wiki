@@ -15,7 +15,7 @@
 * [整数类型 (INTEGER) 和精确数字类型 (NUMERIC)](integer-and-numberic/index)
 * [浮点类型 (FLOAT)](float/index)
 * [NaN 和 Infinity 处理](nan-infinity/index)
-* [字符类型详解(char,varchar,text)](charactor/index) [与mysql的差别](cmp-to-mysql/index)
+* [字符类型详解(char,varchar,text)](charactor/index) &nbsp; &nbsp; [与mysql的差别](cmp-to-mysql/index)
 * [enum](enum/index)
 * [BYTEA](bytea/index)
 * [array](array/index) &nbsp;&nbsp; [cardinality 和 array_length](cardinality-and-array-length/index)
