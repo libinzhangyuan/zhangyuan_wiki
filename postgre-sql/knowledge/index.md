@@ -12,7 +12,7 @@
 ### 字段介绍
 * [自增主键 ID (auto-incrementing primary key)](auto-incrementing-primary-key/index)
 * [uuid](uuid/index)<br><br>
-* [整数类型 (INTEGER) 和精确数字类型 (NUMERIC)](integer-and-numberic/index)
+* [整数类型 (INTEGER) 和精确数字类型 (NUMERIC)](integer-and-numberic/index) &nbsp; &nbsp; [numeric的存储模式](store-numeric)
 * [浮点类型 (FLOAT)](float/index)
 * [NaN 和 Infinity 处理](nan-infinity/index)
 * [字符类型详解(char,varchar,text)](charactor/index) &nbsp; &nbsp; [与mysql的差别](cmp-to-mysql/index)
