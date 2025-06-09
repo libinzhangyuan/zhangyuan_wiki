@@ -59,6 +59,7 @@
 
 ### 查寻
 * [各种函数](function/index)
+* [IS DISTINCT FROM](is-distinct-from/index)
 * [row_number](row-number/index)
 * [row_number vs rank vs dense_rank](row-number-rank-dense-rank/index)
 <br><br>
