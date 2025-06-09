@@ -87,7 +87,7 @@
 * [JSON索引](json-index/index)
 * [JSON- 普通GIN索引 vs jsonb_path_ops-GIN索引 vs GIN 路径索引](json-index-jsonb-path-ops-gin-vs-gin-path-index/index)
 * [JSON B-tree 索引](json-btree-index/index)<br><br>
-* [向量相似性搜索(pgvector)](pgvector/index) &nbsp;&nbsp; (Vector索引(pgvector))(pgvector-index)
+* [向量相似性搜索(pgvector)](pgvector/index) &nbsp;&nbsp; [Vector索引(pgvector)](pgvector-index)
 
 
 ### 操作
