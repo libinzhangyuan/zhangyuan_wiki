@@ -8,6 +8,7 @@
 * [tablet(数据分片)](tablet/index)
 * [Partition、Bucket 和 Tablet 详解](partition-bucket-tablet/index)
 
+* [rollup和物化视图](rollup-and-materialized-view/index)
 
 ```
 explain graph
