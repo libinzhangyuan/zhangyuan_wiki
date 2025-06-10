@@ -18,7 +18,7 @@
 * [字符类型详解(char,varchar,text)](charactor/index) &nbsp; &nbsp; [与mysql的差别](cmp-to-mysql/index)
 * [enum](enum/index)
 * [BYTEA](bytea/index)
-* [array](array/index) &nbsp;&nbsp; [cardinality 和 array_length](cardinality-and-array-length/index)
+* [array](array/index) &nbsp;&nbsp; [cardinality 和 array_length](cardinality-and-array-length/index) &nbsp; &nbsp; [any](any/index)
 * [generated-column](generated-column/index)
 * [TSVECTOR(Text Search Vector)](TSVECTOR/index)
 * [bit string](bit-string/index)
