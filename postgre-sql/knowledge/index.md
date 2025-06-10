@@ -35,7 +35,7 @@
 <br><br>
 * [排除约束(EXCLUSION 约束)](exclusion-constraints/index)
 * [通用倒排索引 GIN(Generalized Inverted Index)](generalized-inverted-index/index)
-* [广义搜索树索引 GIST(Generalized Search Tree)](gist/index)
+* [广义搜索树索引 GIST(Generalized Search Tree)](gist/index) &nbsp; &nbsp; [全文搜索：GIST 与 GIN 索引的差别](gist-gin-cmp/index)
 * [外键约束 (Foreign Key Constraints)](forengn-key-constraints/index)
 * [可延迟约束(Deferrable Foreign Keys)](deferrable-foreign-key/index)
 * [函数索引(Functional Index)](functional-index/index)
