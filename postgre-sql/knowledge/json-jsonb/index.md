@@ -16,11 +16,6 @@ PostgreSQL 提供了两种 JSON 数据类型：`json` 和 `jsonb`，它们都用
 ```
 ## 基本用法
 
-### 启用扩展（如果需要）
-
-```sql
-CREATE EXTENSION IF NOT EXISTS pgcrypto;
-```
 
 ### 创建表
 
