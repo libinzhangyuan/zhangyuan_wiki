@@ -24,7 +24,7 @@
 * [bit string](bit-string/index)
 * [复合类型(Composite Types)](composite-types/index)
 * [hstore](hstore/index) &nbsp; &nbsp; [hstore使用GIST或GIN索引](hstore-gist-gin/index)
-* [json and jsonb](json-jsonb/index)
+* [json and jsonb](json-jsonb/index) &nbsp; &nbsp; [Rails中使用](rails-json-jsonb/index)
 * [类型转换方法对比：CAST vs TRY_CAST vs CASE 表达式](cast-trycast-case/index)
 
 ### 索引
