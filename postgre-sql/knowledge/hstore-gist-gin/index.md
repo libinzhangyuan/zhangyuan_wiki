@@ -1,6 +1,6 @@
 [返回](/postgre-sql/knowledge/index)
 
-# PostgreSQL hstore 使用 GIST 索引 或 GIV索引
+# PostgreSQL hstore 使用 GIST 索引 或 GIN索引
 
 PostgreSQL 中的 `hstore` 是一种键值对数据类型，可以使用 GIST 索引来加速特定类型的查询操作。以下是关于 hstore 使用 GIST 索引的详细介绍：
 
