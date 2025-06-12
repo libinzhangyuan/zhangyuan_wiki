@@ -1,6 +1,7 @@
 [返回](/doris/index)
 
 ### 设计
+* [FE BE broker](fe-be-broker/index)
 * [宽表](wide-table/index)
 
 * [Partition（分区）](partition/index) &nbsp;&nbsp;&nbsp; [Dynamic Partitioning(动态分区)](dynamic-partitioning/index)
