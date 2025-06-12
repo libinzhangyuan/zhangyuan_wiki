@@ -26,7 +26,7 @@
 * [hstore](hstore/index) &nbsp; &nbsp; [hstore使用GIST或GIN索引](hstore-gist-gin/index)
 * [json and jsonb](json-jsonb/index) &nbsp; &nbsp; [Rails中使用](rails-json-jsonb/index)
 * [类型转换方法对比：CAST vs TRY_CAST vs CASE 表达式](cast-trycast-case/index)
-
+* [GIST 和 SPGIST](gist-spgist/index)
 ### 索引
 * [原理-堆和物理位置标识符(heaps and CTID)](heap-ctid/index)
 * [原理-B-tree 索引](b-tree-index/index)
