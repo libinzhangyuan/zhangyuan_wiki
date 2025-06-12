@@ -1,16 +1,16 @@
 [返回](/postgre-sql/knowledge/index)
 
-# PostgreSQL GIN 索引详解
+# 通用倒排索引 GIN 索引详解
 
-GIN (Generalized Inverted Index) 是 PostgreSQL 中的一种高效索引类型，特别适合用于包含多个组件值的数据类型，如数组、JSONB、全文搜索等。
+通用倒排索引 GIN (Generalized Inverted Index) 是 PostgreSQL 中的一种高效索引类型，特别适合用于包含多个组件值的数据类型，如数组、JSONB、全文搜索等。
 
 ## 1. GIN 索引基本概念
-
+```
 GIN 是"通用倒排索引"的缩写，它的主要特点是：
 - 适用于需要索引复合值的数据类型
 - 支持"包含"查询（如 `@>`、`<@` 等操作符）
 - 对数组、JSONB、范围类型和全文搜索特别有效
-
+```
 ## 2. 创建 GIN 索引的基本语法
 
 ```sql
@@ -119,7 +119,7 @@ SELECT title FROM articles WHERE tsv @@ to_tsquery('english', 'database & perfor
 ```
 
 ## 4. GIN 索引与 B-tree 索引对比
-
+```
 | 特性                | GIN 索引                     | B-tree 索引               |
 |---------------------|-----------------------------|--------------------------|
 | 适用数据类型        | 数组、JSONB、全文搜索等      | 标量值（数字、字符串等）  |
@@ -127,7 +127,7 @@ SELECT title FROM articles WHERE tsv @@ to_tsquery('english', 'database & perfor
 | 索引大小            | 通常较大                     | 通常较小                  |
 | 更新性能            | 较慢                         | 较快                      |
 | NULL 值处理         | 不索引NULL值                 | 可以索引NULL值            |
-
+```
 ## 5. GIN 索引优化技巧
 
 1. **使用 GIN 索引的快速更新技术**：
