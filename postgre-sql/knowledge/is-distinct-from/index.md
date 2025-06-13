@@ -2,7 +2,7 @@
 
 # PostgreSQL 中的 IS DISTINCT FROM 运算符
 
-`IS DISTINCT FROM` 是 PostgreSQL 中的一个比较运算符，用于比较两个值是否不同，与普通的 `!=` 或 `<>` 运算符不同，它能够正确处理 NULL 值。
+`IS DISTINCT FROM` 'IS NOT DISTINCT FROM' 是 PostgreSQL 中的一个比较运算符，用于比较两个值是否不同，与普通的 `!=` 或 `<>` 运算符不同，它能够正确处理 NULL 值。
 
 ## 主要特点
 
