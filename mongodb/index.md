@@ -1,5 +1,6 @@
 [back](../Home)
 
+* [知识图谱](technolog/index)
 
 * [mongodb官方文档](https://docs.mongodb.com/manual/)
 * [指令语法](doc/instruction)
