@@ -8,8 +8,11 @@
 * [Bucket(分桶)](bucket/index)
 * [tablet(数据分片)](tablet/index)
 * [Partition、Bucket 和 Tablet 详解](partition-bucket-tablet/index)
+* [三种数据模型：Duplicate(明细模型)、Aggregate(聚合模型) 和 Unique(唯一性模型)](duplicate-aggregate-unique/index)
 
+### sss
 * [rollup和物化视图](rollup-and-materialized-view/index)
+
 
 ```
 explain graph
