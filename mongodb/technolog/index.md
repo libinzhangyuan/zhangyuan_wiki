@@ -2,6 +2,8 @@
 
 ### 命令
 * [Number类型](number/index)
+* [ Decimal 和 Double 数据类型介绍](decimal-double/index)
+<br><br>
 * [Date Unix纪元(1970-01-01)以来的毫秒数](date/index)
 * [new Date() 用法详解](new-date/index)
 * [日期时间与时区解析](date-zone/index)
