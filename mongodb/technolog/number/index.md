@@ -128,7 +128,7 @@ db.products.aggregate([
 1. **类型转换**：MongoDB 会自动转换一些数字类型，这可能导致精度问题
    ```javascript
    // 插入一个整数
-   db.test.insertOne({ value: 5 })
+   db.test.insertOne({ value: 5 }) # 这个实际存储的是double 5.0
    
    // 查询时会匹配不同类型的5
    db.test.find({ value: 5.0 }) // 会匹配到上面的文档
