@@ -15,4 +15,5 @@
 
 ### 优化
 * [统计数量慢问题分析 count,estimatedDocumentCount,countDocuments](count/index)
+* [count vs countDocuments 性能对比](count-vs-countDocuments/index)
 * [索引](table-index/index)
