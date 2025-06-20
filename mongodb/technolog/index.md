@@ -10,6 +10,7 @@
 * [日期时间与时区解析](date-zone/index)
 * [日期时区处理详解, $dateToString](date-ctl/index)
 * [$date 操作符详解](dolar-date/index)
+* [$dayOfMonth处理时区 - $dateToParts](date-to-parts/index)
 
 
 ### 优化
