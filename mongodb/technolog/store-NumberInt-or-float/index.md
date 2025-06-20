@@ -35,11 +35,12 @@ Object.prototype.toString.call(doc.value);
 ```
 
 ### 对比表：
+```
 | 插入方式 | 存储类型 | 示例值 |
 |----------|----------|--------|
 | `{ value: 5 }` | double（浮点数） | `5.0` |
 | `{ value: NumberInt(5) }` | 32位整数 | `5` |
-
+```
 ### 总结：
 - 直接写 `{ value: 5 }`，MongoDB 会存储为 `double` 类型的 `5.0`。
 - 如果需要存储为整数，需显式使用 `NumberInt(5)`。
