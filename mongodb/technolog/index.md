@@ -15,6 +15,7 @@
 
 ### 查找
 * [Cursor (游标)和Batch (批处理)](cursor-and-batch/index)
+* [及时关闭游标](close-cursor/index)
 
 ### 优化
 * [统计数量慢问题分析 count,estimatedDocumentCount,countDocuments](count/index)
