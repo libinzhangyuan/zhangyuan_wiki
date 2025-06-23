@@ -13,6 +13,9 @@
 * [$dayOfMonth处理时区 - $dateToParts](date-to-parts/index)
 
 
+### 查找
+* [Cursor (游标)和Batch (批处理)](cursor-and-batch/index)
+
 ### 优化
 * [统计数量慢问题分析 count,estimatedDocumentCount,countDocuments](count/index)
 * [count vs countDocuments 性能对比](count-vs-countDocuments/index)
