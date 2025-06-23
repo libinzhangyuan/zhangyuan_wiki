@@ -46,6 +46,7 @@
 * [实现"允许NULL值但NULL值必须唯一"的约束](uniq-null-only-one/index)
 * [NULL 值排序](null-order/index)
 * [hash索引(hash index)](hash-index/index)
+* [SQL 的 LIMIT OFFSET 无法有效使用索引的说法](limit-offset-is-bad-for-indexless/index)
 
 
 ### 全文搜索
