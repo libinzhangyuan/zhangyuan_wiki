@@ -119,3 +119,17 @@ db.students.aggregate([
 1. `{ field: value }` - 匹配数组中**包含**该值的文档
 2. `{ field: [value] }` - 匹配数组**完全等于**[value]的文档（严格匹配）
 3. `{ field: { $all: [value], $size: 1 } }` - 匹配**包含**该值且**数组长度为1**的文档（最符合您需求的方式）
+
+
+{ field: value } 是最基础的精确匹配
+
+{ field: [value1, value2] } 要求数组完全匹配
+
+$all 操作符不关心元素顺序，只要求包含所有指定元素
+
+$size 操作符可以限制数组长度
+{ field: { $all: [value1, value2], $size: 2 }} 不关系顺序。
+
+
+组合使用 $all 和 $size 可以实现更精确的数组查询
+
