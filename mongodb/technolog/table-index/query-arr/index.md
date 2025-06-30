@@ -38,6 +38,8 @@ db.students.find({ scores: 80 })
 ]
 ```
 
+[数组精确匹配单个元素](have-one-and-only-one/index)
+
 ## 高级数组查询操作符
 
 ### 1. $all - 匹配包含所有指定元素的数组
