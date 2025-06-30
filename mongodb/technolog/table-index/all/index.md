@@ -115,7 +115,7 @@ db.users.createIndex({ username: "hashed" })
 db.users.find({ username: "user123" })
 ```
 
-## 7. 通配符索引 (Wildcard Index)
+## 7. [通配符索引 (Wildcard Index)](wildcard-index/index)
 
 支持对未知或任意字段的查询。
 
