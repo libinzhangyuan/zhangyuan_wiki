@@ -11,6 +11,8 @@
 * [日期时区处理详解, $dateToString](date-ctl/index)
 * [$date 操作符详解](dolar-date/index)
 * [$dayOfMonth处理时区 - $dateToParts](date-to-parts/index)
+* [显式 $and 与隐式 AND 对比](explicit-and-vs-implicit-and/index)
+
 
 
 ### 查找
