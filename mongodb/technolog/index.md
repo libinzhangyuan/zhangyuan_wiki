@@ -3,6 +3,7 @@
 ### 设计 
 * [MongoDB数据库设计经验法则](design-pricipal/index)
 * [ 属性模式(Attribute Pattern)](attribute-pattern/index)
+* [findAndModify 原子性操作](findAndModify-for-atom-modify/index)
 <br>
 * [分片(Sharding)](sharding/index)
 * [哈希分片](sharding-hash/index)
