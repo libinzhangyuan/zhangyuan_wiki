@@ -4,8 +4,11 @@
 * [MongoDB数据库设计经验法则](design-pricipal/index)
 * [ 属性模式(Attribute Pattern)](attribute-pattern/index)
 <br>
-[分片(Sharding)](sharding/index)
+* [分片(Sharding)](sharding/index)
 * [哈希分片](sharding-hash/index)
+<br>范围分片 标签分片 复合分片
+<br>MongoDB 写关注(Write Concern)级别设置 https://chat.deepseek.com/a/chat/s/5de44bf4-84fd-4a75-84fc-baed7c6eb647
+<br>MongoDB 读偏好(Read Preference)详解 https://chat.deepseek.com/a/chat/s/b2b71cc5-e328-4dda-8d38-6ef61b71071a
 
 
 ### 命令
