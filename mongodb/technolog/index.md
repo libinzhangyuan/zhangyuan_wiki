@@ -3,6 +3,9 @@
 ### 设计 
 * [MongoDB数据库设计经验法则](design-pricipal/index)
 * [ 属性模式(Attribute Pattern)](attribute-pattern/index)
+分片 (Sharding)
+* [哈希分片](sharding-hash/index)
+
 
 ### 命令
 * [Number类型](number/index)
