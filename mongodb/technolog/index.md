@@ -18,12 +18,12 @@
 * [显式 $and 与隐式 AND 对比](explicit-and-vs-implicit-and/index)
 
 
-
 ### 查找
 * [Cursor (游标)和Batch (批处理)](cursor-and-batch/index)
 * [及时关闭游标](close-cursor/index) &nbsp; &nbsp;
 * [Java try-with-resources](Java-try-with-resources/index)
 * [MongoTemplate 在大集合中使用 skip 的性能问题](mongotemplate-skip-bad/index)
+* [findAndModify 原子性操作](findAndModify-for-atom-modify/index)
 
 
 ### 优化
