@@ -1,5 +1,8 @@
 [返回](/mongodb/index)
 
+### 设计 
+* [MongoDB数据库设计经验法则](design-pricipal/index)
+
 ### 命令
 * [Number类型](number/index)
 * [Decimal 和 Double 数据类型介绍](decimal-double/index)
