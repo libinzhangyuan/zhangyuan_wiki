@@ -1,3 +1,6 @@
+[返回](/doris/knowledge/index)
+
+
 # Doris 数据库 ASYNC 异步物化视图刷新策略介绍
 
 ASYNC(异步)物化视图是 Apache Doris 中的一种物化视图类型，它通过后台任务定期刷新数据，与基表数据保持异步一致。
