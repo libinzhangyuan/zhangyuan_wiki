@@ -1,3 +1,6 @@
+[返回](/doris/knowledge/index)
+
+
 # Doris物化视图创建时的REFRESH ASYNC模式区别
 
 在Doris中创建物化视图时，可以通过`REFRESH ASYNC`指定不同的刷新策略。以下是三种创建方式的详细区别：
