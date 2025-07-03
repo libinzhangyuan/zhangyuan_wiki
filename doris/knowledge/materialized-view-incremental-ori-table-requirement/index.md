@@ -148,3 +148,96 @@ AS SELECT * FROM your_table;
 4. **性能权衡**：行级增量刷新可能比分区级消耗更多资源
 
 正确配置增量刷新机制可以显著提高物化视图刷新效率，降低资源消耗。
+
+
+# Doris增量刷新时间戳字段的命名规则
+
+在Doris中使用时间戳字段实现INCREMENTAL增量刷新时，**字段名不需要必须是`last_update_time`**，可以使用任意合法的字段名称。关键点是字段的类型和行为，而非具体名称。
+
+## 时间戳字段的核心要求
+
+1. **字段类型**：必须是`DATETIME`或`TIMESTAMP`类型
+2. **数据更新规则**：每次数据变更时必须自动或手动更新该字段值
+3. **单调递增**：理想情况下时间值应该保持递增（非强制但推荐）
+
+## 有效的时间戳字段命名示例
+
+### 示例1：自定义字段名 + 自动更新
+
+```sql
+CREATE TABLE orders (
+    order_id BIGINT,
+    customer_id BIGINT,
+    order_amount DECIMAL(10,2),
+    -- 使用自定义字段名
+    modified_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    -- 其他字段...
+    PRIMARY KEY (order_id)
+)
+DISTRIBUTED BY HASH(order_id) BUCKETS 10;
+```
+
+### 示例2：业务时间字段作为刷新依据
+
+```sql
+CREATE TABLE user_logins (
+    user_id BIGINT,
+    login_time DATETIME,  -- 使用业务时间字段
+    ip_address VARCHAR(15),
+    device_type VARCHAR(20)
+)
+DUPLICATE KEY(user_id, login_time)
+DISTRIBUTED BY HASH(user_id) BUCKETS 10;
+```
+
+### 示例3：多时间戳字段选择
+
+```sql
+CREATE TABLE products (
+    sku_id BIGINT,
+    product_name VARCHAR(100),
+    price DECIMAL(10,2),
+    -- 创建时间
+    created_time DATETIME DEFAULT CURRENT_TIMESTAMP,
+    -- 最后修改时间（用于增量刷新）
+    last_modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (sku_id)
+)
+DISTRIBUTED BY HASH(sku_id) BUCKETS 10;
+```
+
+## 创建物化视图时的注意事项
+
+无论字段名是什么，在创建物化视图时系统会自动识别时间戳字段：
+
+```sql
+-- 使用任意合法时间戳字段名均可
+CREATE MATERIALIZED VIEW mv_order_stats
+REFRESH INCREMENTAL
+AS
+SELECT 
+    DATE(modified_at) as order_date,
+    customer_id,
+    SUM(order_amount) as daily_total
+FROM orders
+GROUP BY order_date, customer_id;
+```
+
+## 验证时间戳字段有效性
+
+可以通过以下命令检查字段是否适合增量刷新：
+
+```sql
+EXPLAIN REFRESH MATERIALIZED VIEW mv_order_stats;
+```
+
+在返回信息中查找`IncrementalRefresh`相关字样确认是否使用时间戳增量刷新。
+
+## 最佳实践建议
+
+1. **命名一致性**：建议团队统一命名规范（如`update_time`/`modify_time`）
+2. **自动更新**：强烈推荐使用`ON UPDATE CURRENT_TIMESTAMP`自动更新
+3. **索引优化**：为时间戳字段添加索引提高刷新效率
+4. **时区注意**：确保时间戳字段使用一致的时区设置
+
+总结：Doris不强制要求特定字段名，只要满足时间戳类型和更新规则，任何合法命名字段都可以用于增量刷新。
