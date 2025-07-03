@@ -20,10 +20,11 @@ CREATE TABLE products (
     name VARCHAR(50),
     price DECIMAL(10,2),
     -- 其他字段...
-    __DORIS_VERSION_COL__ BIGINT REPLACE DEFAULT "0"
+    __DORIS_VERSION_COL__ BIGINT REPLACE DEFAULT "0"  # 不能这样写，只是示意
 )
 UNIQUE KEY(id)
 DISTRIBUTED BY HASH(id) BUCKETS 10;
+
 
 -- 创建基于版本号的增量物化视图
 CREATE MATERIALIZED VIEW mv_product_stats
@@ -36,6 +37,10 @@ SELECT
 FROM products
 GROUP BY category;
 ```
+
+[注意在 Apache Doris 中，不需要也不应该在建表时主动设置 __DORIS_VERSION_COL__ 列。
+这个列是 Doris 系统自动管理的隐藏列，用户无法手动创建或修改。](donot-use-doris-version-col)
+
 
 ### 工作原理
 ```
