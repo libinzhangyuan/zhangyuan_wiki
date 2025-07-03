@@ -1,3 +1,5 @@
+[返回](/doris/knowledge/index)
+
 # Doris 物化视图介绍
 
 Doris 支持三种物化视图类型：ASYNC(异步)、MANUAL(手动)和INCREMENTAL(增量)，下面我将详细介绍这三种类型及其使用示例。
