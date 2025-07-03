@@ -17,7 +17,8 @@
 * [优先使用物化视图](rollup-and-materialized-view-compary/index)
 * [三种物化视图类型：ASYNC(异步)、MANUAL(手动)和INCREMENTAL(增量)](materialized-view-refresh-type/index)
 * [ASYNC(异步) - 基本异步刷新模式(== 纯手动刷新模式),定时异步刷新模式](materialized-view-async-type/index)
-* [ASYNC 异步物化视图刷新策略](materialized-view-async-refresh-statige/index)
+* [ASYNC(异步) - 异步物化视图刷新策略](materialized-view-async-refresh-statige/index)
+* [INCREMENTAL(增量) - 增量刷新模式详解](materialized-view-incremental-detail/index)
 
 ```
 explain graph
