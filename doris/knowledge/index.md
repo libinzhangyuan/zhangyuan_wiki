@@ -15,7 +15,7 @@
 ### sss
 * [rollup和物化视图](rollup-and-materialized-view/index)
 * [优先使用物化视图](rollup-and-materialized-view-compary/index)
-
+* [三种物化视图类型：ASYNC(异步)、MANUAL(手动)和INCREMENTAL(增量)](materialized-view-refresh-type/index)
 
 
 ```
