@@ -14,6 +14,8 @@
 
 ### sss
 * [rollup和物化视图](rollup-and-materialized-view/index)
+* [优先使用物化视图](rollup-and-materialized-view-compary/index)
+
 
 
 ```
