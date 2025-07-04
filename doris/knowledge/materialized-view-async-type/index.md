@@ -60,7 +60,7 @@ GROUP BY user_id;
 |------------------------------|----------|----------|----------------------------------|
 | REFRESH ASYNC                | 需手动   | 无       | 不确定刷新频率，需要灵活控制     |
 | REFRESH ASYNC SCHEDULE       | 自动     | 有       | 需要定期更新数据的物化视图       |
-| REFRESH ASYNC MANUAL         | 需手动   | 无       | 明确不需要自动刷新的物化视图     |
+| REFRESH ASYNC MANUAL         | 需手动   | 无       | 明确不需要自动刷新的物化视图(实际与第1个一致)     |
 
 REFRESH ASYNC MANUAL 与 REFRESH ASYNC  效果是相同的
 ```
