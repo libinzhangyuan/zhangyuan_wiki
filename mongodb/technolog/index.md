@@ -10,7 +10,7 @@
 <br>范围分片 标签分片 复合分片
 * [分片与分桶详解](sharding-and-Bucketing/index)
 * [跨分片查询](query-in-multi-sharding/index)
-
+* [分片策略比较：按时间 vs 按用户ID](sharding-by-time-vs-by-user-id/index)
 
 ### 事务
 * [mongodb事务-csdn](https://blog.csdn.net/u010003835/article/details/52912733)
