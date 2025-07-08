@@ -7,7 +7,8 @@
 <br>
 * [分片(Sharding)](sharding/index)
 * [哈希分片](sharding-hash/index)
-<br>范围分片 标签分片 复合分片
+* [范围分片vs哈希分片](range-sharding-vs-hash-sharding/index)
+<br> 标签分片 复合分片
 * [分片与分桶详解](sharding-and-Bucketing/index)
 * [跨分片查询](query-in-multi-sharding/index)
 * [分片策略比较：按时间 vs 按用户ID](sharding-by-time-vs-by-user-id/index)
