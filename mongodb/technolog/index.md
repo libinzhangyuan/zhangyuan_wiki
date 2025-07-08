@@ -8,6 +8,7 @@
 * [分片(Sharding)](sharding/index)
 * [哈希分片](sharding-hash/index)
 <br>范围分片 标签分片 复合分片
+* [分片与分桶详解](sharding-and-Bucketing/index)
 
 ### 事务
 * [mongodb事务-csdn](https://blog.csdn.net/u010003835/article/details/52912733)
