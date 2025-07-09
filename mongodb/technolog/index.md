@@ -12,6 +12,10 @@
 * [分片与分桶详解](sharding-and-Bucketing/index)
 * [跨分片查询](query-in-multi-sharding/index)
 * [分片策略比较：按时间 vs 按用户ID](sharding-by-time-vs-by-user-id/index)
+* [文章表， 要按照时间查寻最新的条目(次数多)，要根据栏目查寻最新的条目(次数最多)， 要根据文章id查寻条目(次数少)，栏目是数组[2, 4, 6]这种类型。 用什么分片](sharding-example-article/index)
+
+
+
 
 ### 事务
 * [mongodb事务-csdn](https://blog.csdn.net/u010003835/article/details/52912733)
