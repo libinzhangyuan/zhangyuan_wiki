@@ -90,7 +90,6 @@ db.profiles.getShardDistribution()
 可能的返回结果：
 
 ```
-```
 Shard shard0000 at localhost:27018
  data : 768B docs : 2 chunks : 1
  estimated data per chunk : 768B
@@ -105,7 +104,6 @@ Totals
  data : 1.1KB docs : 3 chunks : 2
  Shard shard0000 contains 66.67% data, 66.67% docs in cluster
  Shard shard0001 contains 33.33% data, 33.33% docs in cluster
-```
 ```
 
 ## 性能特征对比
