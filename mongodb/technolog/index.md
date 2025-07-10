@@ -17,6 +17,7 @@
 
 
 变更流
+双写应用层
 
 ### 事务
 * [mongodb事务-csdn](https://blog.csdn.net/u010003835/article/details/52912733)
