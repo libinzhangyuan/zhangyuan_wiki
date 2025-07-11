@@ -31,6 +31,7 @@
 * [Number类型](number/index)
 * [Decimal 和 Double 数据类型介绍](decimal-double/index)
 * [db.test.insertOne({ value: 5 }) 存储的是5 还是5.0](store-NumberInt-or-float/index)
+* [显式类型指定函数](define-type-explicit/index)
 <br><br>
 * [查询 MongoDB 中 +8 时区某一天的数据](date/query-8-zoon)
 * [Date Unix纪元(1970-01-01)以来的毫秒数](date/index)
