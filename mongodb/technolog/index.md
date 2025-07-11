@@ -40,6 +40,8 @@
 * [日期时区处理详解, $dateToString](date-ctl/index)
 * [$date 操作符详解](dolar-date/index)
 * [$dayOfMonth处理时区 - $dateToParts](date-to-parts/index)
+* [setUTCHours 处理负数小时的情况](setUtcHours/index)
+<br><br>
 * [显式 $and 与隐式 AND 对比](explicit-and-vs-implicit-and/index)
 
 
