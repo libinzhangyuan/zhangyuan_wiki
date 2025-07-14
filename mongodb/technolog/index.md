@@ -21,7 +21,7 @@
 ### 变更流
 * [变更流(Change Streams)](Change-Streams/index)
 * [变更流应用场景](Change-Streams-usecase/index)
-
+* [在Spring Boot中实现MongoDB变更流实时通知和提醒](Change-Streams-with-spring-boot/index)
 
 双写应用层
 
