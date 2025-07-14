@@ -4,7 +4,10 @@
 * [MongoDB数据库设计经验法则](design-pricipal/index)
 * [ 属性模式(Attribute Pattern)](attribute-pattern/index)
 * [findAndModify 原子性操作](findAndModify-for-atom-modify/index)
-<br>
+* [双写应用层-比较偏](double-write/index)
+<br><br><br>
+
+### 分片相关
 * [分片(Sharding)](sharding/index)
 * [时间键范围分片：指定时间区间 vs 不指定时间区间](range-sharding-define-range-vs-no-define/index)
 * [哈希分片](sharding-hash/index)
@@ -25,7 +28,6 @@
 * [Spring Boot中正确关闭MongoDB变更流监听](Change-Streams-with-spring-boot-how-to-close/index)
 
 
-* [双写应用层-比较偏](double-write/index)
 
 ### 事务
 * [mongodb事务-csdn](https://blog.csdn.net/u010003835/article/details/52912733)
