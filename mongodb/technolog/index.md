@@ -9,8 +9,9 @@
 * [时间键范围分片：指定时间区间 vs 不指定时间区间](range-sharding-define-range-vs-no-define/index)
 * [哈希分片](sharding-hash/index)
 * [范围分片vs哈希分片](range-sharding-vs-hash-sharding/index)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [标签分片 - 不重要](tag-sharding/index)
-<br>  复合分片
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* [标签分片 - 不重要](tag-sharding/index)
+* [复合分片](Compound-sharding/index)
 * [分片与分桶详解](sharding-and-Bucketing/index)
 * [跨分片查询](query-in-multi-sharding/index)
 * [分片策略比较：按时间 vs 按用户ID](sharding-by-time-vs-by-user-id/index)
