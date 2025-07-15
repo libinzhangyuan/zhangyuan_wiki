@@ -146,6 +146,6 @@ async function startChangeStreamWithRetry() {
 1. **持久化存储resumeToken**：定期将resumeToken保存到持久化存储中
 2. **错误处理**：监听error事件并实现重试逻辑
 3. **心跳检测**：对于长时间没有变更的情况，可以添加心跳文档定期更新
-4. **考虑使用MongoDB Atlas**：Atlas提供了更稳定的变更流服务
+4. **考虑使用[MongoDB Atlas](mongodb-atlas/index)**：Atlas提供了更稳定的变更流服务
 
 通过合理使用这些恢复机制，可以确保即使在网络不稳定的环境下，基于MongoDB变更流的应用也能保持数据的完整性和一致性。
