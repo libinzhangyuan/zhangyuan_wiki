@@ -23,7 +23,7 @@
 
 ### 检测表(集合)更改或新增数据的手段
 * [MongoDB 检测表(集合)更改或新增数据的手段](manage-change/index)
-* [变更数据捕获(Change Data Capture, CDC) -- 最佳方案](change-manage-cdc/index)
+* [变更数据捕获(Change Data Capture, CDC) ----------------- 最佳方案](change-manage-cdc/index)
 <br><br>
 变更流:
 * [变更流(Change Streams)](Change-Streams/index)
