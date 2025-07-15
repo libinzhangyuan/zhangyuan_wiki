@@ -26,7 +26,7 @@
 * [变更流应用场景](Change-Streams-usecase/index)
 * [在Spring Boot中实现MongoDB变更流实时通知和提醒](Change-Streams-with-spring-boot/index)
 * [Spring Boot中正确关闭MongoDB变更流监听](Change-Streams-with-spring-boot-how-to-close/index)
-
+* [变更流(Change Stream)网络中断后的恢复机制](change-stream-disconnect-ctl-restore/index)
 
 
 ### 事务
