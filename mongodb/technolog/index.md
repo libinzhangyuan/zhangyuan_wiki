@@ -5,6 +5,7 @@
 * [ 属性模式(Attribute Pattern)](attribute-pattern/index)
 * [findAndModify 原子性操作](findAndModify-for-atom-modify/index)
 * [双写应用层-比较偏](double-write/index)
+* [MongoDB 多租户设计方案](multi-tenancy/index)
 <br><br><br>
 
 ### 分片相关
