@@ -6,3 +6,4 @@
 * [为什么不建议直接比较嵌入式文档 - 嵌入式文档比较的限制与解决方案](cmp-nest/index)
 * [数组匹配查询详解](query-arr/index)
 * [稀疏索引](sparse-index/index)
+* [TTL索引](ttl-index/index)
