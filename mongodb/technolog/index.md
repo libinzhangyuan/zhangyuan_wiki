@@ -5,7 +5,9 @@
 * [ 属性模式(Attribute Pattern)](attribute-pattern/index)
 * [findAndModify 原子性操作](findAndModify-for-atom-modify/index)
 * [双写应用层-比较偏](double-write/index)
-* [MongoDB 多租户设计方案](multi-tenancy/index)
+* [多租户:设计方案](multi-tenancy/index)
+* [多租户:文档级别的隔离方案 ，对于索引的设计](multi-tenancy-in-one-index/index)
+* [多租户:为大租户创建专用索引](multi-tenancy-in-one-index-for-big-tenancy/index)
 <br><br><br>
 
 ### 分片相关
