@@ -121,10 +121,10 @@ db.system.profile.find().sort({ ts: -1 }).limit(10)
 ```
 
 ## 总结
-
+```
 对于大型集合，尽量避免频繁执行精确的count操作。根据业务需求选择：
 - 需要精确值且数据量小 → `countDocuments()`
 - 需要近似值 → `estimatedDocumentCount()`
 - 分页场景 → 考虑无限滚动或"加载更多"设计
-
+```
 记得为常用查询条件创建索引，这能显著提高count操作的性能。
