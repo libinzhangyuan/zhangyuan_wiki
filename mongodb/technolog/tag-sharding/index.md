@@ -5,12 +5,12 @@
 标签分片(Tag Aware Sharding)是MongoDB中一种高级的分片策略，它允许管理员根据分片标签(tags)将数据定向存储到特定的分片服务器上。
 
 ## 标签分片的基本概念
-
+```
 标签分片允许你：
 1. 为分片服务器分配标签
 2. 为数据范围分配标签
 3. MongoDB会自动将匹配标签范围的数据路由到对应标签的分片上
-
+```
 ## 标签分片的使用场景
 
 - **地理分布**：将特定地区的数据存储在物理上靠近该地区的服务器
@@ -35,12 +35,11 @@ sh.status()
 
 可能的返回结果：
 ```
-```
 --- Sharding Status --- 
   shards:
     {  "_id" : "shard0001",  "host" : "shard1.example.com:27017",  "tags" : [ "USA" ] }
     {  "_id" : "shard0002",  "host" : "shard2.example.com:27017",  "tags" : [ "EU" ] }
-```
+
 ```
 
 ### 2. 创建标签范围
@@ -79,7 +78,6 @@ db.users.getShardDistribution()
 
 可能的返回结果：
 ```
-```
 Shard shard0001 at shard1.example.com:27017
  data : 2.05MB docs : 2 chunks : 1
  estimated data per chunk : 2.05MB
@@ -94,7 +92,6 @@ Totals
  data : 4.12MB docs : 4 chunks : 2
  Shard shard0001 contains 50% data, 50% docs in cluster
  Shard shard0002 contains 50% data, 50% docs in cluster
-```
 ```
 
 ## 标签分片与普通分片的对比
