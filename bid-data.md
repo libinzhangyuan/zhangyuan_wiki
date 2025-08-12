@@ -1,5 +1,4 @@
-
-* [ai绘图](ai-pic/index)
+* [Stable Diffusion ai绘图](ai-pic/index)
 
 ```
 提示词助手
