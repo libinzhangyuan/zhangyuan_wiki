@@ -7,7 +7,8 @@
 
 
 ### 插件
-* [介绍Stable Diffusion的LoRA 模型](lora)
+* [LoRA 模型](lora)
+* [Dynamic Prompts](dynamic-prompts/index)
 
 ### 带文字
 * [如果想让其对图片内的各个物品加上 物品是什么的英文, 应该怎么写提示词](add-label-to-obj/index)
