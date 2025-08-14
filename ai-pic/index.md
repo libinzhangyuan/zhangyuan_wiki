@@ -7,7 +7,7 @@
 
 
 ### 插件
-* [LoRA 模型](lora)
+* [LoRA(局部重建 Attention)](lora)
 * [Dynamic Prompts](dynamic-prompts/index)
 * [DreamBooth (学习稀有或个性化的图像特征)](DreamBooth/index)
 
