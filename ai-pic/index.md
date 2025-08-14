@@ -6,7 +6,8 @@
 * [增加随机性](add-more-rand/index)
 
 
-### 插件
+### 扩展功能
+* [扩展功能总结](extension/index)
 * [LoRA(局部重建 Attention)](lora)
 * [Dynamic Prompts](dynamic-prompts/index)
 * [DreamBooth (学习稀有或个性化的图像特征)](DreamBooth/index)
