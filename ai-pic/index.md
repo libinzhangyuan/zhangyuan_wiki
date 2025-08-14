@@ -9,6 +9,7 @@
 ### 插件
 * [LoRA 模型](lora)
 * [Dynamic Prompts](dynamic-prompts/index)
+* [DreamBooth (学习稀有或个性化的图像特征)](DreamBooth/index)
 
 ### 带文字
 * [如果想让其对图片内的各个物品加上 物品是什么的英文, 应该怎么写提示词](add-label-to-obj/index)
