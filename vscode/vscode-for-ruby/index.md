@@ -1,2 +1,3 @@
 
-* (Ruby LSP翻译)[ruby-lsp/index]
+
+* [Ruby LSP翻译](ruby-lsp/index)
