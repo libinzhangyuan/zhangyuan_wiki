@@ -13,6 +13,7 @@
 * [独立开发-资源](resource-for-dev)
 * [大模型](bid-data)
 * [git](git/index)
+* [vscode](vscode/index)
 
 
 <br/>
