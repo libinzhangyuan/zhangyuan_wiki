@@ -1,14 +1,8 @@
 
 
-
 ```
-##### 不需要了：  需要c40机器上nbd-app-test wifi, 然后ip就是？
+##### 需要c40机器上nbd-app-test wifi, 然后ip就是192.168.38.174
 
-或者 univpn 方案，先考虑这个
-描述信息：hxkj
-网关: vpn.hxkjmedia.com  13443
-自适应模式 勾选 路由覆盖
-账号 zhangyuan
 
 ```
 
