@@ -4,6 +4,7 @@
 
 * [Stable Diffusion安装 windows](https://zhuanlan.zhihu.com/p/681290221)
 * [增加随机性](add-more-rand/index)
+* [提速](speed-up/index)
 
 
 ### 扩展功能
