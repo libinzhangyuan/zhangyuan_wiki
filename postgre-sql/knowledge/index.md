@@ -5,6 +5,7 @@
 * [外部数据包装器(FDW)](fdw/index)
 
 ### 命令
+* [数据库基本命令](database-base-cmd/index)
 * [explain，及其所有选项](explain/index)
 * [pg_repack, REINDEX 和 VACUUM](reindex-and-vacuum-pg-repack/index)
 * [设置搜索路径 (默认schema)](search-path/index)
