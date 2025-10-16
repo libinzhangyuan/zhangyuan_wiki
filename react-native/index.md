@@ -1,6 +1,5 @@
 ### 架构决策
 ```
-Expo
 React Native Paper
 
 ```
