@@ -22,3 +22,6 @@ React Native Paper
 ### 样式库
 * [uni style]()
 * [native wind]()
+
+### 组件
+* [react-native-safe-area-context](react-native-safe-area-context/index)
