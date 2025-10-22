@@ -32,6 +32,9 @@ Text Generation WebUI 支持 Windows、Linux、Mac（M 系列芯片）系统，�
 
 1. **一键脚本（推荐新手）**：  
    项目提供自动化安装脚本，只需运行对应系统的脚本（如 `start_linux.sh`、`start_windows.bat`），即可自动安装依赖（Python、PyTorch 等）并启动服务。  
+```
+wget https://raw.githubusercontent.com/oobabooga/text-generation-webui/main/install_linux.sh && chmod +x install_linux.sh && ./install_linux.sh
+```
 
 2. **手动安装**：  
    - 克隆 GitHub 仓库（`https://github.com/oobabooga/text-generation-webui`）；  
