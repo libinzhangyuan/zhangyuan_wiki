@@ -1,5 +1,7 @@
 [返回](/bid-data)
 
+* [版权](license/index)
+
 ### Stable Diffusion
 
 * [Stable Diffusion安装 windows](https://zhuanlan.zhihu.com/p/681290221)
