@@ -1,6 +1,6 @@
 [返回](/bid-data)
 
-* [版权](license/index)
+* [版权 - 结论：100w美元下可以免费](license/index)
 
 ### Stable Diffusion
 
