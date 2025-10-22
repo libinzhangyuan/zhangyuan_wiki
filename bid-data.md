@@ -1,6 +1,7 @@
 * [Stable Diffusion ai绘图](ai-pic/index)
 
 * [本地部署、运行大语言模型（LLM） 的框架 / 工具介绍 (LM Studio, llama.cpp, Ollama, Text Generation WebUI, KoboldAI)](LLM-intro/index)
+* [Text Generation WebUI](Text-Generation-WebUI/index)
 
 
 ```
