@@ -1,6 +1,7 @@
 ### 绘图模型
 * [绘图大模型Kolors(快手),Janus Pro(deepseek),HunyuanDiT(百度),Flux,Stable Diffusion](ai-pic-cmp/index)
 * [Stable Diffusion ai绘图](ai-pic/index)
+* [Flux.1](flux1/index)
 
 
 ### 大语言模型
