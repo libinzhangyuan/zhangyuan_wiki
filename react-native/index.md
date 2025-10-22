@@ -25,7 +25,7 @@ React Native Paper
 
 ### 语法
 * [条件判断 ? 和 &&](condition-check/index)
-
+* [条件语句-假值陷阱](falsy-value-trap/index)
 
 ### 组件
 * [react-native-safe-area-context](react-native-safe-area-context/index)
