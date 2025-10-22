@@ -8,3 +8,4 @@
 * [arguments 伪数组](arguments)
 * [剩余参数（Rest Parameters) (...args)](rest-raprameters/index)
 * [let,const 块级作用域的含义， 跟var作用域的区别](let-const-var/index)
+* [== vs ===](equal-sign-cmp/index)
