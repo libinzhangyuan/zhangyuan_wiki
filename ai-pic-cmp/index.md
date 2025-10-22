@@ -3,114 +3,13 @@
 * [针对下面这种场景使用，对比情况：提示词整体不变，只是替换很少的点](cmp-by-sentence/index)
 ```
 提示词1.
-生成对应英文为professor 语义为"教授" 的图片，
-「动漫」风格，风格为吉卜力，整体是黑白色，但"教授"本身加入色彩. 比例「4:3」 像素为高300，宽400。最后压缩为jpg
-增加更多帮助人判定其为教授的要素。并且利用上环境，即击打最多出现的环境。 图中请不要出现可读的文字.
+Generate an image corresponding to the English word 'bat', with the meaning "a club used for hitting a ball in various games", in anime style, overall in black and white, but the bat itself should have color added. Aspect ratio 4:3, pixels: height 300, width 400. Finally compressed as jpg. Add more elements that help people identify it as a 'bat'. And make use of the environment, specifically the environment where hitting most frequently occurs. Please do not include readable text in the image.
 
 提示词2.
-生成对应英文为bat 语义为"击打" 的图片，
-「动漫」风格，风格为吉卜力，整体是黑白色，但"击打"本身加入色彩. 比例「4:3」 像素为高300，宽400。最后压缩为jpg
-增加更多帮助人判定其为击打的要素。并且利用上环境，即击打最多出现的环境。 图中请不要出现可读的文字.
+Generate an image corresponding to the English word 'bat', with the meaning "strike with, or as if with a baseball bat", in anime style, overall in black and white, but the bat itself should have color added. Aspect ratio 4:3, pixels: height 300, width 400. Finally compressed as jpg. Add more elements that help people identify it as a 'bat'. And make use of the environment, specifically the environment where hitting most frequently occurs. Please do not include readable text in the image.
 ```
 
 * [其图片的商业的限制情况如何]()
 * [Janus Pro (DeepSeek)的商业使用限制](janus-pro-shangye/index)
 
 
-
-
-好的，这是一个非常具体且实际的问题。我们来深入对比一下你提到的这几个可以个人部署的绘图大模型：**Kolors（快手）、Janus Pro（deepseek的）、HunyuanDiT（腾讯）、FLUX、Stable Diffusion**。
-
-首先需要做一个重要修正：**Janus Pro** 应该是 **Janus**，它是由 **腾讯** 发布的，而不是 DeepSeek。DeepSeek 主要专注于语言模型。
-
-下面我将从多个维度对它们进行对比，并提供一个总结表格。
-
----
-
-### 核心特性与背景对比
-```
-| 特性        | Stable Diffusion  | FLUX                        | HunyuanDiT                  | Kolors       | Janus |
-| **发布公司** | Stability AI      | Black-forest Labs           | **腾讯**                     | **快手**     | **腾讯** |
-| **模型特点** | 生态最成熟，插件最多 | **性能新标杆，生成质量高**      | **对中文理解极佳，综合能力强**  | 强调色彩和美学 | **多模态理解，人像生成强** |
-| **开源情况** | 完全开源           | **完全开源**                  | 开源（代码、部分权重）          | 开源         | 开源（部分版本） |
-| **社区与生态** | **极其庞大**      | 快速增长                     | 中文社区活跃                   | 相对较新     | 相对较新 |
-```
----
-
-### 详细能力对比分析
-
-#### 1. Stable Diffusion (SDXL 1.0 / SD 3.0)
-- **优势**：
-    - **生态王者**：拥有最庞大的社区，无数的插件（如 ControlNet, LoRA, IP-Adapter）、工具（如 ComfyUI, Automatic1111）和微调模型。你可以用 SD 做到任何事情（图生图、局部重绘、风格迁移等）。
-    - **硬件要求相对较低**：SD 1.5 等旧版本可以在 6GB 显存的显卡上运行，资源友好。
-    - **技术成熟**：遇到的问题基本都能在社区找到解决方案。
-- **劣势**：
-    - **原生能力**：在“裸模”状态下，其图像质量、文字渲染和提示词遵循能力已被 FLUX、Hunyuan 等新模型超越。
-    - **SD 3.0**：虽然能力大幅提升，但架构变化导致其与旧版生态（如 LoRA）的兼容性有一定问题，目前生态还在过渡中。
-- **适合人群**：**初学者、研究者、插件和定制化需求极高的玩家**。如果你想学习并深入 AIGC 的整个工作流，SD 是必经之路。
-
-#### 2. FLUX (FLUX.1 dev / FLUX.1 schnell)
-- **优势**：
-    - **生成质量标杆**：被广泛认为是当前开源领域的“新王”。在图像美感、细节、光影、质感和**文字渲染**方面表现出色。
-    - **提示词遵循能力强**：能很好地理解复杂提示词，并精确呈现。
-    - **架构先进**：纯 Transformer 架构，是下一代 Diffusion 技术的代表。
-    - **两个版本**：`dev` 版质量最高，`schnell` 版速度最快，为用户提供了选择。
-- **劣势**：
-    - **资源消耗大**：需要较大的显存（推荐 16GB+），推理速度相对较慢。
-    - **生态初期**：社区生态远不如 SD 成熟，相关的工具和微调模型正在发展中。
-    - **对中文支持一般**：原生模型对中文提示词的理解不如专门优化的国产模型。
-- **适合人群**：**追求极致生成质量，且拥有较好硬件设备的用户**。不太在乎复杂插件，更看重“开箱即用”的效果。
-
-#### 3. HunyuanDiT (腾讯)
-- **优势**：
-    - **顶尖的中文理解能力**：专门针对中文文化和语言进行优化，对中文古诗词、成语、网络用语的理解远超其他模型。
-    - **出色的文字渲染**：不仅能理解中文，还能在图片中准确地生成中文文字。
-    - **综合性能强**：在人像、风景、中国风等题材上都有很高水准，图像审美符合东方偏好。
-    - **具备目标检测和定位能力**：可以根据描述精确控制物体在画面中的位置。
-- **劣势**：
-    - **生态较新**：社区和第三方工具不如 SD 丰富。
-    - **硬件要求较高**：与 FLUX 类似，需要较好的显卡。
-- **适合人群**：**主要使用中文进行创作，需要生成包含中文元素或具有中国风内容的用户**。
-
-#### 4. Kolors (快手)
-- **优势**：
-    - **色彩与美学突出**：快手在视频和图像处理上有深厚积累，Kolors 在色彩鲜艳度、画面通透感和整体美学上表现优秀。
-    - **人像生成质量高**：对人脸细节、肤质的处理很细腻。
-    - **对中文支持较好**：同样针对中文进行了优化。
-- **劣势**：
-    - **知名度和社区相对较小**：在声量上被腾讯和 FLUX 盖过，相关资源和讨论较少。
-    - **综合能力**：在场景复杂度和提示词遵循的精确度上，与 FLUX 和 Hunyuan 相比可能略有差距。
-- **适合人群**：**特别看重图像色彩、风格化效果和人像生成的用户**。
-
-#### 5. Janus (腾讯)
-- **优势**：
-    - **强大的多模态理解**：Janus 的核心亮点是其多模态理解能力，能够更好地结合图像和文本信息进行创作。
-    - **人像生成专精**：特别是在生成亚洲人像方面，肤质、光影和细节处理非常出色。
-    - **联想式生成**：能够根据给定的参考图或概念，进行创造性的延伸和发挥。
-- **劣势**：
-    - **定位相对垂直**：更像是一个在特定领域（如人像、多模态）的“特化”模型，通用性上可能略逊于 HunyuanDiT 和 FLUX。
-    - **部署可能更复杂**：由于其多模态特性，部署和使用方式可能比其他模型稍复杂。
-- **适合人群**：**专注于人像创作、艺术设计，并且需要模型具备较强联想和语义理解能力的用户**。
-
----
-
-### 总结与选择建议
-```
-| 你的核心需求 | 首选推荐 | 次选推荐 |
-| :--- | :--- | :--- |
-| **“我是新手，想什么都玩玩”** | **Stable Diffusion** | - |
-| **“我不差硬件，就要最好的效果”** | **FLUX** | HunyuanDiT |
-| **“我主要用中文创作，要中国风/古风”** | **HunyuanDiT** | Kolors |
-| **“我专门做人像/时尚/艺术创作”** | **Janus** | Kolors |
-| **“我追求最绚丽的色彩和视觉冲击”** | **Kolors** | FLUX |
-| **“我依赖社区和插件，要解决具体问题”** | **Stable Diffusion** | - |
-```
-**最终建议：**
-
-1.  **入门与全能**：从 **Stable Diffusion** 开始，它依然是生态最完善、学习资源最丰富的选择。
-2.  **质量与前沿**：如果你硬件足够，**FLUX** 和 **HunyuanDiT** 是现阶段个人部署的“双雄”。
-    -   更国际化、技术更领先选 **FLUX**。
-    -   更侧重中文语境和本土文化选 **HunyuanDiT**。
-3.  **垂直领域**：**Janus** 和 **Kolors** 是在特定方面（人像、色彩）有加成的优秀模型，可以根据你的具体创作主题进行选择。
-
-这些模型都在快速发展中，建议关注它们的官方 GitHub 页面和 Hugging Face 主页，以获取最新的模型权重和部署指南。
