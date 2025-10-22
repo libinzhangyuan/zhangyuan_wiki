@@ -1,4 +1,5 @@
 * [能力对比](ability-cmp/index)
+* [直接通过语句的模式来绘图么？而不是规整为分割好的提示词](cmp-by-talk/index)
 
 * [针对下面这种场景使用，对比情况：提示词整体不变，只是替换很少的点](cmp-by-sentence/index)
 ```
