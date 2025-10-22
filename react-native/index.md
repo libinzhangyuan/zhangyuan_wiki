@@ -24,8 +24,9 @@ React Native Paper
 * [native wind]()
 
 ### 语法
-* [条件判断 ? 和 &&](condition-check/index)
-* [条件语句-假值陷阱](falsy-value-trap/index)
+* [条件渲染 ? &&](condition-check/index)
+* [条件语句-假值陷阱 falsy value trap](falsy-value-trap/index)
+* [兜底渲染fallback rendering](fallback-rendering/index)
 
 ### 组件
 * [react-native-safe-area-context](react-native-safe-area-context/index)
