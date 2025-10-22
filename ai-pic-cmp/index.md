@@ -14,7 +14,7 @@
 ```
 
 
-好的，这是一个非常具体且实际的问题。我们来深入对比一下你提到的这几个可以个人部署的绘图大模型：**Kolors（快手）、Janus Pro（深透科技？）、HunyuanDiT（腾讯）、FLUX、Stable Diffusion**。
+好的，这是一个非常具体且实际的问题。我们来深入对比一下你提到的这几个可以个人部署的绘图大模型：**Kolors（快手）、Janus Pro（deepseek的）、HunyuanDiT（腾讯）、FLUX、Stable Diffusion**。
 
 首先需要做一个重要修正：**Janus Pro** 应该是 **Janus**，它是由 **腾讯** 发布的，而不是 DeepSeek。DeepSeek 主要专注于语言模型。
 
