@@ -4,6 +4,7 @@
 
 ## 列表
 * [效率工具](dev-tools/index)
+* [seo](seo/index)
 * [配置文件](config/index)
 * [前端](front/index)
 * [手机app端](mobile-app)
