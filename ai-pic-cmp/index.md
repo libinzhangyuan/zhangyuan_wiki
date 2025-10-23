@@ -11,6 +11,6 @@ Generate an image corresponding to the English word 'bat', with the meaning "str
 ```
 
 * [其图片的商业的限制情况如何]()
-* [Janus Pro (DeepSeek)的商业使用限制](janus-pro-shangye/index)
+* [Janus Pro (DeepSeek)的商业使用限制 (可以商用)](janus-pro-shangye/index)
 
 
