@@ -1,6 +1,6 @@
 ### 架构决策
 ```
-裸 RN 项目
+裸 RN 项目 (即，不用expo)
 React Native Paper
 
 ```
