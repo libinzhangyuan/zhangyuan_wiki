@@ -22,6 +22,7 @@ React Native Paper
 ### 样式库
 * [uni style]()
 * [native wind]()
+* [阴影react-native-shadow-generator](react-native-shadow-generator/index)
 
 ### 语法
 * [条件渲染 ? &&](condition-check/index)
