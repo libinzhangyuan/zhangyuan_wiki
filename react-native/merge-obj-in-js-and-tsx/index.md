@@ -1,5 +1,7 @@
 [return](/react-native/index)
 
+### js和tsx中合并对象 & ... assign _.merge
+
 在 TSX（TypeScript + JSX）语法中，`&` 符号的含义需要分两种场景来看：**值层面**和**类型层面**，二者用途完全不同，且都不直接用于“对象合并”（值层面的对象合并仍沿用 JavaScript 的语法）。
 
 
