@@ -1,4 +1,3 @@
-
 ### rails c 下可以出来之前的命令
 ```
 RUN echo "IRB.conf[:LOAD_HISTORY] = true" >> ~/.irbrc && \
@@ -13,5 +12,7 @@ RUN echo "IRB.conf[:LOAD_HISTORY] = true" >> ~/.irbrc && \
 RUN echo 'export HISTSIZE=1000' >> /root/.bashrc && \
   echo 'export HISTFILESIZE=2000' >> /root/.bashrc && \
   echo 'export HISTFILE=/root/.bash_history' >> /root/.bashrc
+
+然后docker-compose中要启动方式要为 shell -i
 
 ```
