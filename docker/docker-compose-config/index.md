@@ -13,6 +13,6 @@ RUN echo 'export HISTSIZE=1000' >> /root/.bashrc && \
   echo 'export HISTFILESIZE=2000' >> /root/.bashrc && \
   echo 'export HISTFILE=/root/.bash_history' >> /root/.bashrc
 
-然后docker-compose中要启动方式要为 shell -i
+然后docker-compose中要启动方式要为 CMD ["/bin/bash", "-i"]
 
 ```
