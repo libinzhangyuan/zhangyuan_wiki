@@ -1,5 +1,4 @@
 
-
 ### rails c 下可以出来之前的命令
 ```
 RUN echo "IRB.conf[:LOAD_HISTORY] = true" >> ~/.irbrc && \
@@ -9,6 +8,8 @@ RUN echo "IRB.conf[:LOAD_HISTORY] = true" >> ~/.irbrc && \
 
 ### 设置shell中可以查看历史命令
 ```
+# 实际并不一定足够。还需要readline等的安装情况。
+
 RUN echo 'export HISTSIZE=1000' >> /root/.bashrc && \
   echo 'export HISTFILESIZE=2000' >> /root/.bashrc && \
   echo 'export HISTFILE=/root/.bash_history' >> /root/.bashrc
