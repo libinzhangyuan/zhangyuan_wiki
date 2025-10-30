@@ -1,0 +1,16 @@
+
+
+### rails c 下可以出来之前的命令
+```
+RUN echo "IRB.conf[:LOAD_HISTORY] = true" >> ~/.irbrc && \
+  echo "IRB.conf[:HISTORY_FILE] = File.expand_path('~/.irb_history')" >> ~/.irbrc && \
+  echo "IRB.conf[:SAVE_HISTORY] = 1000" >> ~/.irbrc
+```
+
+### 设置shell中可以查看历史命令
+```
+RUN echo 'export HISTSIZE=1000' >> /root/.bashrc && \
+  echo 'export HISTFILESIZE=2000' >> /root/.bashrc && \
+  echo 'export HISTFILE=/root/.bash_history' >> /root/.bashrc
+
+```
