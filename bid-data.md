@@ -10,6 +10,9 @@
 * [Text Generation WebUI](Text-Generation-WebUI/index)
 
 
+### 视频
+* [wan](wan/index)
+
 ```
 提示词助手
 https://kimi.moonshot.cn/kimiplus/conpg00t7lagbbsfqkq0
