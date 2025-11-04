@@ -1,7 +1,5 @@
 [return](../index)
 
-下面将按照你要求的格式，优化 React Native 状态管理方案的对比内容，确保表格用 ``` 包裹、空格排版整齐，代码块统一使用 ``` 标识。
-
 
 ### 1. `useContext` + `useState`/`useReducer`  
 **核心作用**：跨层级共享状态，解决“props 透传”问题（状态无需经过多层无关组件传递）。  
@@ -147,7 +145,9 @@ export default ShoppingCart;
 - 点击“清空购物车”按钮，`dispatch` 触发 `CLEAR_CART` 类型的 action，购物车数组重置为空，页面显示“商品列表：暂无商品”。
 
 
-### 3. 全局状态管理库（以 Zustand 为例）  
+### 3. 全局状态管理库(如 Redux、Zustand、Jotai）)
+
+以 Zustand 为例 <br><br>
 **核心作用**：管理应用级全局状态（如用户信息、多页面共享的配置），支持复杂逻辑（异步请求、多模块联动）。  
 相比传统 Redux 更轻量，API 简洁，无需繁琐的 `reducer` 和 `action` 定义。
 
