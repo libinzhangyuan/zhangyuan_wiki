@@ -33,6 +33,9 @@
 * [PropsWithChildren](propsWithChildren/index)
 * [UseState](useState/index) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [UseState适合传给子控件使用么](use-state-for-child/index)
 * [跨组件传递数据(createContext、useContext 和 Provider)](createContext-useContext/index)
+* [四种状态管理方案](state-cmp/index)
+
+
 
 ### 组件
 * [react-native-safe-area-context](react-native-safe-area-context/index)
