@@ -1,4 +1,4 @@
-[return](../)
+[return](../index)
 
 
 `propsWithChildren` 是 React 内置的工具类型，核心作用是给自定义的 Props 类型自动添加 `children` 属性类型，无需手动声明即可让组件支持子元素传递。
