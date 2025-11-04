@@ -98,7 +98,7 @@ export default ParentComponent;
 - 当 `Provider` 的 `value` 发生变化时，使用 `useContext` 的组件会自动重新渲染，获取最新数据。
 
 #### 代码示例（结合 Provider 完整流程）
-```jsx
+```
 import React, { createContext, useContext, useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
