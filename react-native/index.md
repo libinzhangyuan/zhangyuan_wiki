@@ -29,6 +29,7 @@
 * [条件语句-假值陷阱 falsy value trap](falsy-value-trap/index)
 * [兜底渲染fallback rendering](fallback-rendering/index)
 * [js和tsx中合并对象 & ... assign _.merge](merge-obj-in-js-and-tsx/index)
+* [跨组件传递数据(createContext、useContext 和 Provider)](createContext-useContext/index)
 
 ### 组件
 * [react-native-safe-area-context](react-native-safe-area-context/index)
