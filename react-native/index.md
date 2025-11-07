@@ -35,7 +35,7 @@
 * [跨组件传递数据(createContext、useContext 和 Provider)](createContext-useContext/index)
 * [四种状态管理方案](state-cmp/index)
 
-
+* [useMemo](useMemo/index)
 
 ### 组件
 * [react-native-safe-area-context](react-native-safe-area-context/index)
