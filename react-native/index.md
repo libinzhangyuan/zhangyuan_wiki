@@ -36,6 +36,9 @@
 * [四种状态管理方案](state-cmp/index)
 
 * [useMemo](useMemo/index)
+* [useEffect](useEffect/index)
+* [useRef](useRef/index)
+
 
 ### 组件
 * [react-native-safe-area-context](react-native-safe-area-context/index)
