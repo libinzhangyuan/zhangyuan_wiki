@@ -155,13 +155,13 @@ const DataList = () => {
 
 export default DataList;
 ```
-
+```
 **返回结果**：
 *   组件挂载后，会发起网络请求。
 *   在请求期间，屏幕上会显示一个加载指示器 (`ActivityIndicator`)。
 *   请求成功后，`FlatList` 会显示从 API 获取的数据列表。
 *   如果请求失败，会显示错误信息。
-
+```
 ---
 
 ### 示例 2：监听设备网络状态
@@ -202,12 +202,13 @@ const NetworkStatus = () => {
 export default NetworkStatus;
 ```
 **注意**：`NetInfo` 需要从 `@react-native-community/netinfo` 安装和导入（React Native 0.60+）。
-
+```
 **返回结果**：
 *   组件挂载后，立即订阅网络状态变化。
-*   当设备网络连接或断开时，`handleNetworkChange` 会被调用，`isConnected` 状态会更新，UI 也会相应地显示不同的文本。
+*   当设备网络连接或断开时，`handleNetworkChange` 会被调用，`isConnected` 状态会更新，
+UI 也会相应地显示不同的文本。
 *   当组件卸载时，`useEffect` 的清理函数会移除事件监听，防止内存泄漏。
-
+```
 ---
 
 ### 示例 3：根据 props 变化更新数据
