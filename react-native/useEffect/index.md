@@ -51,7 +51,7 @@ function MyComponent() {
 
 ### 场景一：不提供依赖数组
 
-```jsx
+```
 useEffect(() => {
   console.log('Effect ran');
 });
