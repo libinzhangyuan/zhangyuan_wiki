@@ -34,6 +34,7 @@
 * [UseState](useState/index) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [UseState适合传给子控件使用么](use-state-for-child/index)
 * [跨组件传递数据(createContext、useContext 和 Provider)](createContext-useContext/index)
 * [四种状态管理方案](state-cmp/index)
+* [react native 的 Redux、Zustand、Jotai 的使用情况？ 优先用哪个？](Redux-Zustand-Jotai-cmp/index)
 
 * [useMemo](useMemo/index)
 * [useEffect](useEffect/index)
