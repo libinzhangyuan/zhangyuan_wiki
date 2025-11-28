@@ -44,7 +44,7 @@
 
 
 ### 组件
-* [普通函数组件](Functional-Component/index)
+* [普通函数组件](Functional-Component/index) &nbsp;&nbsp;&nbsp;&nbsp; [React.FC](React-FC/index)
 * [react-native-safe-area-context](react-native-safe-area-context/index)
 * [自定义控件：利用PressableProps/ComponentProps传原始控件的参数](ComponentProps/index)
 
