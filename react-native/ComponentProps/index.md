@@ -8,7 +8,7 @@
 
 
 #### 1. 定义带 PressableProps 的自定义组件（使用 TypeScript 更规范）
-```tsx
+```
 // CustomButton.tsx
 import React from 'react';
 import { Pressable, Text, StyleProp, ViewStyle, PressableProps } from 'react-native';
@@ -61,7 +61,7 @@ export default CustomButton;
 #### 2. 使用自定义组件（传递 PressableProps 和自定义属性）
 父组件使用时，可以像使用原生 `Pressable` 一样传递 `onPress`、`onLongPress` 等属性，同时传递自定义的 `text` 等属性：
 
-```tsx
+```
 // ParentComponent.tsx
 import React from 'react';
 import { View, Alert } from 'react-native';
@@ -105,7 +105,7 @@ export default ParentComponent;
 ### 若使用 JavaScript（非 TypeScript）：
 可以省略类型定义，但仍可通过 `prop-types` 进行类型检查：
 
-```jsx
+```
 // CustomButton.js
 import React from 'react';
 import { Pressable, Text } from 'react-native';
@@ -156,7 +156,7 @@ export default CustomButton;
 ### 示例 1：基于原生组件封装（如 Text）
 假设我们要封装一个 `CustomText` 组件，它需要支持原生 `Text` 组件的所有属性（如 `style`、`numberOfLines` 等），同时添加自定义属性（如 `isHighlighted` 高亮状态）。
 
-```tsx
+```
 // CustomText.tsx
 import React from 'react';
 import { Text, StyleSheet, ComponentProps } from 'react-native';
@@ -204,7 +204,7 @@ export default CustomText;
 ### 示例 2：使用自定义组件
 父组件使用 `CustomText` 时，既能传递原生 `Text` 的所有属性，也能传递自定义的 `isHighlighted`：
 
-```tsx
+```
 // Parent.tsx
 import React from 'react';
 import { View } from 'react-native';
@@ -233,7 +233,7 @@ const Parent = () => {
 ### 示例 3：继承第三方组件的 Props
 如果封装第三方组件（如 `react-native-paper` 的 `Button`），同样可以用 `ComponentProps` 继承其属性：
 
-```tsx
+```
 // CustomPaperButton.tsx
 import React from 'react';
 import { Button } from 'react-native-paper';
@@ -285,7 +285,7 @@ const CustomPaperButton: React.FC<CustomPaperButtonProps> = (props) => {
 - `ComponentProps<typeof Pressable>` 与 `PressableProps` 效果一致，但 `ComponentProps` 更通用，适用于**任何组件**（包括自定义组件）。
 
 例如：  
-```tsx
+```
 // 两种方式等价（针对 Pressable）
 type Props1 = PressableProps;
 type Props2 = ComponentProps<typeof Pressable>;
