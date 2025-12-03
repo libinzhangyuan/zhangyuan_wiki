@@ -50,6 +50,8 @@
 * [react-native-safe-area-context](react-native-safe-area-context/index)
 * [自定义控件：利用PressableProps/ComponentProps传原始控件的参数](ComponentProps/index)
 
+### 工具
+* [setTimeout setInterval](setTimeout-setInterval/index)
 
 
 
