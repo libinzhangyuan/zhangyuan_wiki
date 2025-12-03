@@ -1,6 +1,7 @@
 ### 架构决策
 ```
 裸 RN 项目 (即，不用expo)
+用ESM
 使用React Native Paper,  Zustand
 
 ```
