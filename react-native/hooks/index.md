@@ -12,10 +12,11 @@ React Hooks 是 React 16.8+ 引入的核心特性，允许**函数组件**使用
 ```javascript
 const [state, setState] = useState(initialValue);
 ```
+```
 - `initialValue`：状态初始值（可直接传值，或函数返回值，函数仅执行一次）
 - `state`：当前状态值
 - `setState`：状态更新函数（异步执行）
-
+```
 #### 示例：计数器组件
 ```javascript
 import React, { useState } from 'react';
@@ -173,15 +174,19 @@ export default SubscriptionDemo;
 
 ### 3. useRef：引用与持久化变量
 #### 作用
+```
 - 获取 React Native 组件/原生 DOM 元素的引用（如 TextInput、View）；
 - 存储**持久化变量**（组件重新渲染时不会重置，且修改不会触发重新渲染）。
+```
 
 #### 语法
 ```javascript
 const ref = useRef(initialValue);
 ```
+```
 - `initialValue`：初始值（可任意类型，如 `null`、`0`、组件实例）
 - `ref.current`：访问/修改引用的值（核心属性）
+```
 
 #### 示例 1：获取 TextInput 引用（操作焦点）
 ```javascript
@@ -354,16 +359,19 @@ export default Profile;
 | loading   | boolean | 本地存储读取状态（true 加载中）|
 ```
 ## 四、Hooks 使用规则
+```
 1. **只能在顶层调用**：不能在 if、for、嵌套函数、try/catch 中调用 Hooks；
 2. **只能在 React 函数中调用**：只能在函数组件或自定义 Hooks 中使用，不能在普通 JS 函数中调用；
 3. **自定义 Hooks 必须以 use 开头**：如 `useLocalStorage`、`useRequest`（便于 React 识别和 lint 检查）；
 4. **依赖数组要完整**：useEffect/useCallback/useMemo 的依赖数组需包含所有用到的外部变量（避免闭包陷阱）。
+```
 
 ## 五、总结
+```
 React Native Hooks 彻底改变了函数组件的能力边界，核心优势：
 1. **简化代码**：消除 class 组件的 this 困扰和模板代码；
 2. **逻辑复用**：通过自定义 Hooks 抽取通用逻辑（如请求、存储、订阅），无需 HOC/Render Props；
 3. **性能优化**：useCallback/useMemo 可缓存函数和计算结果，减少不必要的渲染；
 4. **易于维护**：逻辑集中在函数内，代码结构更清晰。
-
+```
 Hooks 已成为 React Native 开发的首选方案，与原生组件、第三方库完全兼容，是必备的核心技能。
