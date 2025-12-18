@@ -6,7 +6,7 @@
 裸 RN 项目 (即，不用expo)
 用ESM (ECMAScript Module)
 使用React Native Paper,  Zustand
-
+使用React Navigation 框架
 ```
 
 * [React Native的命令](cmd/index)
