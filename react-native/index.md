@@ -1,3 +1,6 @@
+### 学习资料
+* [网站reactnavigation.org](https://reactnavigation.org/docs/getting-started)
+
 ### 架构决策
 ```
 裸 RN 项目 (即，不用expo)
