@@ -1,5 +1,6 @@
 ### 学习资料
-* [网站reactnavigation.org](https://reactnavigation.org/docs/getting-started)
+* [reactnative.cn](https://reactnative.cn/docs/getting-started)
+* [reactnavigation.org](https://reactnavigation.org/docs/getting-started)
 中文: https://www.reactnavigation.org.cn/
 
 
