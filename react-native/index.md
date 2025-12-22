@@ -1,5 +1,8 @@
 ### 学习资料
 * [网站reactnavigation.org](https://reactnavigation.org/docs/getting-started)
+中文: https://www.reactnavigation.org.cn/
+
+
 
 ### 架构决策
 ```
