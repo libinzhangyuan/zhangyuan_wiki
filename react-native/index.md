@@ -1,5 +1,5 @@
 ### 学习资料
-* [reactnative.cn](https://reactnative.cn/docs/getting-started)
+* [reactnative.cn 翻墙，代码块才正常显示](https://reactnative.cn/docs/getting-started)
 * [reactnavigation.org](https://reactnavigation.org/docs/getting-started)
 中文: https://www.reactnavigation.org.cn/
 
