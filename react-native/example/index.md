@@ -5,7 +5,7 @@
 ### 一、 综合型全功能项目（适合学习完整RN架构）
 ```
 #### 1. `notJustDev/awesome-react-native`
-- GitHub地址：https://github.com/notJustDev/awesome-react-native
+- GitHub地址：https://github.com/jondot/awesome-react-native
 - 更新频率：超活跃（每周均有提交，2024-2025年持续维护）
 - 核心特点：
   1.  不是单一项目，而是**精选RN生态优质项目的合集**，内置大量较新的实战案例（覆盖电商、社交、工具类等）；
