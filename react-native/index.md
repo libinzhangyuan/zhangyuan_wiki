@@ -4,6 +4,8 @@
 * [reactnavigation.org](https://reactnavigation.org/docs/getting-started)
 中文: https://www.reactnavigation.org.cn/
 
+### 环境安装/启动
+* [install and run](install-and-run/index)
 
 
 ### 架构决策
