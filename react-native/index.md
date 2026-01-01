@@ -10,6 +10,7 @@
 
 ### 架构决策
 ```
+使用 pnpm
 裸 RN 项目 (即，不用expo)
 用ESM (ECMAScript Module)
 使用React Native Paper,  Zustand
