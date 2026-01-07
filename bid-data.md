@@ -8,7 +8,7 @@
 
 * [本地部署、运行大语言模型（LLM） 的框架 / 工具介绍 (LM Studio, llama.cpp, Ollama, Text Generation WebUI, KoboldAI)](LLM-intro/index)
 * [Text Generation WebUI](Text-Generation-WebUI/index)
-
+* [调用大模型对单词取例句，一个单词一个单词的来，和一次弄几十个单词， 那种的效果好](effection-cmp-count-of-date/index)
 
 ### 视频
 * [wan](wan/index)
