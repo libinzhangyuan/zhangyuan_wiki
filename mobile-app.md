@@ -6,6 +6,7 @@
 * [soul_en_app](soul-en-app/index)
 * [设计](http://wiki.zy.cn/design/index)
 * [FAQ](faq)
+* [运营](yunying/index)
 
 ```
 灵魂英语 - 图片为主
