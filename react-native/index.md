@@ -15,6 +15,7 @@
 项目基础prompt:
 裸 RN 项目 (即，不用expo)
 用ESM (ECMAScript Module)
+react为19.2版本，react-native为0.83版本
 使用React Native Paper,  Zustand
 使用React Navigation 框架
 使用Flexbox来布局
