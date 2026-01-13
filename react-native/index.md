@@ -10,11 +10,14 @@
 
 ### 架构决策
 ```
-使用 pnpm
+使用 pnpm(有问题)，还是继续用npm
+
+项目基础prompt:
 裸 RN 项目 (即，不用expo)
 用ESM (ECMAScript Module)
 使用React Native Paper,  Zustand
 使用React Navigation 框架
+使用Flexbox来布局
 ```
 
 * [React Native的命令](cmd/index)
