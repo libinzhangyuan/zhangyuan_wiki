@@ -19,6 +19,7 @@ react为19.2版本，react-native为0.83版本
 使用React Native Paper,  Zustand
 使用React Navigation 框架
 使用Flexbox来布局
+数据库使用 Realm（核心关系数据）+ MMKV（高频键值对）
 ```
 
 * [React Native的命令](cmd/index)
