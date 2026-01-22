@@ -31,7 +31,7 @@ react为19.2版本，react-native为0.83版本
 <br><br><br><br><br><br><br><br><br>
 
 ### 数据库
-* [database/index]
+* [database](database/index)
 
 ### 各种组建库:
 * [React Native Paper  与 Tamagui 对比](tamagui-vs-React-Native-Paper/index)
